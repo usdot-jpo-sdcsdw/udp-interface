@@ -8,7 +8,7 @@ import org.bson.Document;
 
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.MessageCreator;
 
-public class MockAdvisorySituationDataDao implements AsdDaoInterface {
+public class MockASDDAO implements ASDDAOInterface {
 	// Return mock data -- for testing
 
 	public void setMockMessageCount(int msgCount) {
@@ -47,5 +47,5 @@ public class MockAdvisorySituationDataDao implements AsdDaoInterface {
 
 	private boolean insertBadData = false;
 	private int mockMessagesToMake = 45;
-	private final static Logger logger = Logger.getLogger(MockAdvisorySituationDataDao.class);
+	private final static Logger logger = Logger.getLogger(MockASDDAO.class);
 }

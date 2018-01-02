@@ -15,9 +15,9 @@ import org.bson.Document;
  * @author mna30547
  *
  */
-public class MongoSessionHandler implements SessionHandlerInterface {
+public class DistributedSessionHandler implements SessionHandlerInterface {
 
-	public MongoSessionHandler(SessionsDAO sessionsDAO) {
+	public DistributedSessionHandler(SessionsDAO sessionsDAO) {
 		this.sessionsDAO = sessionsDAO;
 	}
 
@@ -51,5 +51,5 @@ public class MongoSessionHandler implements SessionHandlerInterface {
 	}
 
 	private SessionsDAO sessionsDAO;
-	private final static Logger logger = Logger.getLogger(MongoSessionHandler.class);
+	private final static Logger logger = Logger.getLogger(DistributedSessionHandler.class);
 }

@@ -14,7 +14,7 @@ import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;
  * @author mna30547
  *
  */
-public class HashMapSessionHandler implements SessionHandlerInterface {
+public class LocalSessionHandler implements SessionHandlerInterface {
 	private HashMap<String, InetSocketAddress> sessionMap = new HashMap<String, InetSocketAddress>();
 
 	public InetSocketAddress getSession(String requestID) throws KeyNotFoundException {

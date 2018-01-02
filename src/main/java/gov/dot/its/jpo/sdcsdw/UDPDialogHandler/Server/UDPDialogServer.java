@@ -16,7 +16,7 @@ import org.apache.log4j.Logger;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.InitializationError;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Model.Response;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.HashMapSessionHandler;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.LocalSessionHandler;
 
 /**
  * @author mna30547 This Class creates a thread which listens on a port for UDP

@@ -14,14 +14,14 @@ import com.mongodb.MongoClientOptions;
 import com.mongodb.ServerAddress;
 import com.mongodb.client.MongoDatabase;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.AdvisorySituationDataDAO;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockAdvisorySituationDataDao;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.ASDDAO;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockASDDAO;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.SessionsDAO;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.DialogHandler;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.MessageProcessor;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.DialogMessageFactory;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.UDPDialogServer;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.HashMapSessionHandler;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.MongoSessionHandler;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.LocalSessionHandler;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.DistributedSessionHandler;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.SessionHandlerInterface;
 
 /**
@@ -54,11 +54,11 @@ public class UDPInterfaceApplication {
 		}
 
 		SessionHandlerInterface sessionHandler;
-		MessageProcessor messageProcessor;
+		DialogMessageFactory messageProcessor;
 
 		if (debug.equals("True")) {
-			sessionHandler = new HashMapSessionHandler();
-			messageProcessor = new MessageProcessor(new MockAdvisorySituationDataDao());
+			sessionHandler = new LocalSessionHandler();
+			messageProcessor = new DialogMessageFactory(new MockASDDAO());
 
 		} else {
 			// READ ALL PROPERTIES AND CONFIRM THEY EXIST
@@ -116,14 +116,14 @@ public class UDPInterfaceApplication {
 			SessionsDAO sessionsDAO = new SessionsDAO(mongo, MongoDBName, SessionsCollectionName);
 
 			// Initialize Session Handler
-			sessionHandler = new MongoSessionHandler(sessionsDAO);
+			sessionHandler = new DistributedSessionHandler(sessionsDAO);
 
 			// Initialize ASD DAO which the message processor will use to get data from the
 			// mongo DB
-			AdvisorySituationDataDAO asdDAO = new AdvisorySituationDataDAO(mongo, MongoDBName, TIMSCollectionName);
+			ASDDAO asdDAO = new ASDDAO(mongo, MongoDBName, TIMSCollectionName);
 
 			// Initialize Message Processor
-			messageProcessor = new MessageProcessor(asdDAO, NWCornerLat, NWCornerLon, SECornerLat, SECornerLon);
+			messageProcessor = new DialogMessageFactory(asdDAO, NWCornerLat, NWCornerLon, SECornerLat, SECornerLon);
 		}
 
 		// Initialize Dialog Handler

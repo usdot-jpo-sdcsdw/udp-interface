@@ -12,9 +12,9 @@ import com.mongodb.client.MongoDatabase;
 
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.MessageCreator;
 
-public class AdvisorySituationDataDAO implements AsdDaoInterface {
+public class ASDDAO implements ASDDAOInterface {
 
-	public AdvisorySituationDataDAO(MongoDatabase mongo, String DbName, String collectionName) {
+	public ASDDAO(MongoDatabase mongo, String DbName, String collectionName) {
 		// Initialize connection to backend DB
 		this.collection = mongo.getCollection(collectionName);
 
@@ -42,6 +42,6 @@ public class AdvisorySituationDataDAO implements AsdDaoInterface {
 	}
 
 	private MongoCollection<Document> collection;
-	private final static Logger logger = Logger.getLogger(AdvisorySituationDataDAO.class);
+	private final static Logger logger = Logger.getLogger(ASDDAO.class);
 
 }

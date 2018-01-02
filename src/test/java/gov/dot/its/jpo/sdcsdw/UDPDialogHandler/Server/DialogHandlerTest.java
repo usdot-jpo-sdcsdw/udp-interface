@@ -4,13 +4,13 @@ import gov.dot.its.jpo.sdcsdw.MessageTypes.AdvisorySituationDataDistribution;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.DataReceipt;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.DialogMessage;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceResponse;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockAdvisorySituationDataDao;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockASDDAO;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Model.Response;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.DialogHandler;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.MessageProcessor;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.HashMapSessionHandler;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.DialogMessageFactory;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.LocalSessionHandler;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.Asn1Types;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.PerXerCodec;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.CodecFailedException;
@@ -48,9 +48,9 @@ public class DialogHandlerTest
 
 	@BeforeClass
 	public static void setUp() {
-		sessionHandler = new HashMapSessionHandler();
-		mockASDDAO = new MockAdvisorySituationDataDao();
-		messageProcessor = new MessageProcessor(mockASDDAO);
+		sessionHandler = new LocalSessionHandler();
+		mockASDDAO = new MockASDDAO();
+		messageProcessor = new DialogMessageFactory(mockASDDAO);
 		dialogHandler = new DialogHandler(sessionHandler, messageProcessor);
 
 		try {
@@ -432,9 +432,9 @@ public class DialogHandlerTest
 			"19 40 00 00 00 21 ea 6e c2 c0 ", "19 40 00 00 00 04 55 22 83 00 " };
 
 	private static DialogHandler dialogHandler;
-	private static HashMapSessionHandler sessionHandler;
-	private static MockAdvisorySituationDataDao mockASDDAO;
-	private static MessageProcessor messageProcessor;
+	private static LocalSessionHandler sessionHandler;
+	private static MockASDDAO mockASDDAO;
+	private static DialogMessageFactory messageProcessor;
 	private static InetAddress address;
 	private static MessageDigest digest;
 

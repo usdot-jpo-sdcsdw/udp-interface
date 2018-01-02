@@ -20,7 +20,7 @@ import gov.dot.its.jpo.sdcsdw.MessageTypes.DataRequest;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.DialogID;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.DialogMessage;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceRequest;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.AsdDaoInterface;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.ASDDAOInterface;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.Asn1Types;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.PerXerCodec;
@@ -31,9 +31,9 @@ import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.per.RawPerData;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.xer.RawXerData;
 import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
 
-public class MessageProcessor {
+public class DialogMessageFactory {
 
-	public MessageProcessor(AsdDaoInterface asdDAO, double NWCornerLatStr, double NWCornerLonStr, double SECornerLatStr,
+	public DialogMessageFactory(ASDDAOInterface asdDAO, double NWCornerLatStr, double NWCornerLonStr, double SECornerLatStr,
 			double SECornerLonStr) {
 
 		try {
@@ -47,12 +47,12 @@ public class MessageProcessor {
 		setRegion(NWCornerLatStr, NWCornerLonStr, SECornerLatStr, SECornerLonStr);
 	}
 
-	public MessageProcessor(AsdDaoInterface asdDAO) {
+	public DialogMessageFactory(ASDDAOInterface asdDAO) {
 		this(asdDAO, DEFALUT_NW_CNR_LATITUDE, DEFALUT_NW_CNR_LONGITUDE, DEFALUT_SE_CNR_LATITUDE,
 				DEFALUT_SE_CNR_LONGITUDE);
 	}
 
-	public DialogMessage processMessage(DialogMessage abstractObject, byte[] originalBytePayload)
+	public DialogMessage getResponseMessage(DialogMessage abstractObject, byte[] originalBytePayload)
 			throws NoSuchElementException, ProcessingFailedException {
 		DialogMessage dialogMessageToReturnToHandler = null;
 
@@ -164,7 +164,7 @@ public class MessageProcessor {
 	static final double DEFALUT_NW_CNR_LONGITUDE = -85.0;
 	static final double DEFALUT_SE_CNR_LATITUDE = 41.0;
 	static final double DEFALUT_SE_CNR_LONGITUDE = -82.0;
-	private AsdDaoInterface asdDAO;
-	private final static Logger logger = Logger.getLogger(MessageProcessor.class);
+	private ASDDAOInterface asdDAO;
+	private final static Logger logger = Logger.getLogger(DialogMessageFactory.class);
 
 }

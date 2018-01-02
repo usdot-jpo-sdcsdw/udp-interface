@@ -24,18 +24,18 @@ import gov.dot.its.jpo.sdcsdw.MessageTypes.SeqID;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceRegion;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceRequest;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceResponse;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockAdvisorySituationDataDao;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockASDDAO;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.MessageProcessor;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.DialogMessageFactory;
 
 import org.junit.Test;
 
-public class MessageProcessorTest {
+public class DialogMessageFactoryTest {
 
 	@BeforeClass
 	public static void setUp() {
-		mockASDDAO = new MockAdvisorySituationDataDao();
-		messageProcessor = new MessageProcessor(mockASDDAO);
+		mockASDDAO = new MockASDDAO();
+		messageProcessor = new DialogMessageFactory(mockASDDAO);
 	}
 
 	@Test
@@ -60,7 +60,7 @@ public class MessageProcessorTest {
 
 		DialogMessage responseObject = null;
 		try {
-			responseObject = messageProcessor.processMessage(serviceRequest, Hex.decodeHex("8c000000001c0a9c436b69e0"));
+			responseObject = messageProcessor.getResponseMessage(serviceRequest, Hex.decodeHex("8c000000001c0a9c436b69e0"));
 		} catch (NoSuchElementException | DecoderException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -112,7 +112,7 @@ public class MessageProcessorTest {
 		mockASDDAO.setMockMessageCount(20);
 		DialogMessage responseObject = null;
 		try {
-			responseObject = messageProcessor.processMessage(dataRequest,
+			responseObject = messageProcessor.getResponseMessage(dataRequest,
 					Hex.decodeHex("0c400000001c0a9c436293d20150e6945bf88815b908805503de04"));
 		} catch (NoSuchElementException | ProcessingFailedException | DecoderException e) {
 			// TODO Auto-generated catch block
@@ -173,7 +173,7 @@ public class MessageProcessorTest {
 		mockASDDAO.setMockMessageCount(0);
 		DialogMessage responseObject = null;
 		try {
-			responseObject = messageProcessor.processMessage(dataRequest,
+			responseObject = messageProcessor.getResponseMessage(dataRequest,
 					Hex.decodeHex("0c400000001c0a9c436293d20150e6945bf88815b908805503de04"));
 		} catch (NoSuchElementException | ProcessingFailedException | DecoderException e) {
 			// TODO Auto-generated catch block
@@ -234,7 +234,7 @@ public class MessageProcessorTest {
 		mockASDDAO.setMockMessageCount(80);
 		DialogMessage responseObject = null;
 		try {
-			responseObject = messageProcessor.processMessage(dataRequest,
+			responseObject = messageProcessor.getResponseMessage(dataRequest,
 					Hex.decodeHex("0c400000001c0a9c436293d20150e6945bf88815b908805503de04"));
 		} catch (NoSuchElementException | ProcessingFailedException | DecoderException e) {
 			// TODO Auto-generated catch block
@@ -296,7 +296,7 @@ public class MessageProcessorTest {
 		mockASDDAO.setMockMessageCount(80);
 		DialogMessage responseObject = null;
 		try {
-			responseObject = messageProcessor.processMessage(dataRequest,
+			responseObject = messageProcessor.getResponseMessage(dataRequest,
 					Hex.decodeHex("0c400000001c0a9c436293d20150e6945bf88815b908805503de04"));
 		} catch (NoSuchElementException | ProcessingFailedException | DecoderException e) {
 			// TODO Auto-generated catch block
@@ -342,7 +342,7 @@ public class MessageProcessorTest {
 		DataReceipt actualDataReceipt = null;
 
 		try {
-			actualDataReceipt = (DataReceipt) messageProcessor.processMessage(dataAcceptance,
+			actualDataReceipt = (DataReceipt) messageProcessor.getResponseMessage(dataAcceptance,
 					Hex.decodeHex("194000000038153886c0"));
 		} catch (NoSuchElementException | DecoderException | ProcessingFailedException e) {
 			// TODO Auto-generated catch block
@@ -373,7 +373,7 @@ public class MessageProcessorTest {
 
 		DialogMessage unexpectedObject = null;
 		try {
-			unexpectedObject = (DataReceipt) messageProcessor.processMessage(dataReceipt,
+			unexpectedObject = (DataReceipt) messageProcessor.getResponseMessage(dataReceipt,
 					Hex.decodeHex("198000000038153886c0"));
 			fail("Exepected to fail while processing DataReceipt. The DataReceipt is not one of the expected"
 					+ " incoming message types.");
@@ -393,7 +393,7 @@ public class MessageProcessorTest {
 	 * 
 	 */
 
-	private static MessageProcessor messageProcessor;
-	private static MockAdvisorySituationDataDao mockASDDAO;
+	private static DialogMessageFactory messageProcessor;
+	private static MockASDDAO mockASDDAO;
 
 }

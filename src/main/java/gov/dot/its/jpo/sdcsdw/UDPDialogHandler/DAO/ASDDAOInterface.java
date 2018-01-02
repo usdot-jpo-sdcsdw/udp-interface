@@ -4,6 +4,6 @@ import java.util.List;
 
 import org.bson.Document;
 
-public interface AsdDaoInterface {
+public interface ASDDAOInterface {
 	public List<Document> getAllTIMData();
 }

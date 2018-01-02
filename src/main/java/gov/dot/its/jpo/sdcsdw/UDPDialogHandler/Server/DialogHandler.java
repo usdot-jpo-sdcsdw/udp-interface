@@ -36,9 +36,9 @@ import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
  */
 public class DialogHandler {
 
-	public DialogHandler(SessionHandlerInterface sessionHandler, MessageProcessor messageProcessor) {
+	public DialogHandler(SessionHandlerInterface sessionHandler, DialogMessageFactory messageProcessor) {
 		this.sessionHandler = sessionHandler;
-		this.messageProcessor = messageProcessor;
+		this.messageFactory = messageProcessor;
 	}
 
 	/**
@@ -198,7 +198,7 @@ public class DialogHandler {
 				requestMessage.getASN1MessageType()));
 		DialogMessage responseMessage = null;
 		try {
-			responseMessage = messageProcessor.processMessage(requestMessage, payload);
+			responseMessage = messageFactory.getResponseMessage(requestMessage, payload);
 		} catch (NoSuchElementException | ProcessingFailedException e) {
 			// Some failure in processing occurred, possibilities:
 			// Message was not a ServiceRequest, DataRequest, or DataAcceptance
@@ -288,6 +288,6 @@ public class DialogHandler {
 	}
 
 	private SessionHandlerInterface sessionHandler = null;
-	private MessageProcessor messageProcessor;
+	private DialogMessageFactory messageFactory;
 	private final static Logger logger = Logger.getLogger(DialogHandler.class);
 }
