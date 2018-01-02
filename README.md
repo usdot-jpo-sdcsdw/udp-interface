@@ -19,17 +19,17 @@ Currently the SDC/SDW stores and distributes Traveler Information Messages (TIMs
 
 ### Getting Started
 
-#### Step 2 - Clone this repository
+#### Step 1 - Clone this repository
 ```
 git clone <ADD LINK HERE>
 ```
-#### Step 1 - Build the application
+#### Step 2 - Build the application
 ```
 cd UDPInterface
 mvn clean install
 ```
 
-#### Step 3 - Running the UDP Interface
+#### Step 3 - Set Up & Running the Application
 Copy the UDPInterface-0.0.1-jar-with-dependencies.jar to a desired directory. In this example we will use "runDir"
 ```
 cp /target/UDPInterface-0.0.1-jar-with-dependencies.jar ./runDir/
@@ -50,29 +50,6 @@ Run the application
 java -Djava.library.path=. -jar DialogHandler-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -90,6 +67,6 @@ TODO
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache License - see  [LICENSE](LICENSE) file for details
 
 
