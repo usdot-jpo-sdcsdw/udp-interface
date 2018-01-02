@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>gov.dot.its.jpo.sdcsdw</groupId>
-	<artifactId>DialogHandler</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>UDPInterface</artifactId>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>DialogHandler</name>
+	<name>UDPInterface</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -29,13 +29,13 @@
 		<dependency>
 			<groupId>gov.dot.its.jpo.sdcsdw</groupId>
 			<artifactId>per-xer-codec</artifactId>
-			<version>${project.version}</version>
+			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>gov.dot.its.jpo.sdcsdw</groupId>
 			<artifactId>xer-jaxb-codec</artifactId>
-			<version>${project.version}</version>
+			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
