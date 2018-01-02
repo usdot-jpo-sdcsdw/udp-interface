@@ -2,7 +2,7 @@
 
 US Department of Transportation Joint Program office (JPO) Situation Data Clearinghouse/Situation Data Warehouse MVP (SDC/SDW MVP)
 
-In the context of ITS, the SDC/SDW is a data warehouse and distribution software system that stores data received from the [JPO-ODE] (https://github.com/usdot-jpo-ode/jpo-ode) system. This data is persisted for consumption by applications & systems supporting the operation, maintenance, and use of the transportation system, as well as related research and development efforts.
+In the context of ITS, the SDC/SDW is a data warehouse and distribution software system that stores data received from the [JPO-ODE](https://github.com/usdot-jpo-ode/jpo-ode) system. This data is persisted for consumption by applications & systems supporting the operation, maintenance, and use of the transportation system, as well as related research and development efforts.
 
 Currently the SDC/SDW stores and distributes Traveler Information Messages (TIMs). The UDP Interface of the mvp SDC/SDW allows users to programmatically receive these TIMS bundled as Advisory Situation Data Distributions. These distributions contain up to 4 Advisory Situation Bundles, each composed of up to 10 Advisory Broadcasts. The advisory broadcasts contain the encoded traveler information message (TIM). To reveive data from this interface, a specific UDP dialog sequence must be followed. The below diagram depicts this sequence. 
 
