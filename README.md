@@ -4,41 +4,35 @@ US Department of Transportation Joint Program office (JPO) Situation Data Cleari
 
 In the context of ITS, the SDC/SDW is a data warehouse and distribution software system that stores data received from the [JPO-ODE](https://github.com/usdot-jpo-ode/jpo-ode) system. This data is persisted for consumption by applications & systems supporting the operation, maintenance, and use of the transportation system, as well as related research and development efforts.
 
-Currently the SDC/SDW stores and distributes Traveler Information Messages (TIMs). The UDP Interface of the mvp SDC/SDW allows users to programmatically receive these TIMS bundled as Advisory Situation Data Distributions. These distributions contain up to 4 Advisory Situation Bundles, each composed of up to 10 Advisory Broadcasts. The advisory broadcasts contain the encoded traveler information message (TIM). To reveive data from this interface, a specific UDP dialog sequence must be followed. The below diagram depicts this sequence. 
+Currently the SDC/SDW stores and distributes Traveler Information Messages (TIMs). The UDP Interface of the mvp SDC/SDW allows users to programmatically receive these TIMS bundled as Advisory Situation Data Distributions. To receive data from this interface, a specific UDP dialog sequence must be followed. The below diagram depicts this sequence. 
 
 ![UDP Dialog Sequence](images/udp_dialog_sequence.png)
 
 **Each of these messages are UPER encoded.
 
-## Getting Started
-
-TODO
 
 ### Prerequisites
+* JDK 1.8: http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
+* Maven: https://maven.apache.org/install.html
+* Git: https://git-scm.com/
 
-TODO
-
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
+#### Step 2 - Clone this repository
 ```
-Give the example
+git clone <ADD LINK HERE>
 ```
-
-And repeat
-
+#### Step 1 - Build the application
 ```
-until finished
+cd UDPInterface
+mvn clean install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+#### Step 3 - Running the UDP Interface
+```
+java -jar /target/DialogHandler-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+```
 
 ## Running the tests
 
