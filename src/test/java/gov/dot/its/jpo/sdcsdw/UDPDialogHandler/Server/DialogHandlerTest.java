@@ -253,6 +253,7 @@ public class DialogHandlerTest
 					distributionXER = PerXerCodec.perToXer(
 							Asn1Types.getAsn1TypeByName("AdvisorySituationDataDistribution"), distribution,
 							RawPerData.unformatter, RawXerData.formatter);
+					
 				} catch (CodecFailedException | FormattingFailedException | UnformattingFailedException e) {
 					fail(String.format(
 							"Failed converting distribution bytes to XER using the ASN1 encoder/decoder. Message: %s, Error: %s\n",
@@ -374,6 +375,7 @@ public class DialogHandlerTest
 		}
 	}
 
+		
 	private String[] serviceRequestMessages = { "8c 00 00 00 00 14 e5 21 ed ab 70 20 ",
 			"8c 00 00 00 00 1c 9a 21 49 eb 70 20 ", "8c 00 00 00 00 18 b3 90 2b ab 70 20 ",
 			"8c 00 00 00 00 07 4d 27 2e 8b 70 20 ", "8c 00 00 00 00 08 97 dd a2 eb 70 20 ",

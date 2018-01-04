@@ -47,7 +47,7 @@ nano config/settings.properties
 
 Run the application
 ```
-java -Djava.library.path=. -jar DialogHandler-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+java -Djava.library.path=. -jar UDPInterface-0.0.1-jar-with-dependencies.jar
 ```
 
 

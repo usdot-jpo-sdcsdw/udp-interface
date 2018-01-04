@@ -217,7 +217,9 @@ public class MessageCreator {
 		BiDeliveryStart biDeliveryStart = new BiDeliveryStart();
 		BiDeliveryStop biDeliveryStop = new BiDeliveryStop();
 
+		
 		if (startTime != null && stopTime != null) {
+			
 			biDeliveryStart.fillAllFields(startTime);
 			biDeliveryStop.fillAllFields(stopTime);
 		}
@@ -250,7 +252,7 @@ public class MessageCreator {
 
 		bcastInst.setBiEncryption(biEncript);
 
-		bcastInst.setBiPriority(String.format("%02X", PRIORITY));
+		bcastInst.setBiPriority(Integer.toString(PRIORITY));
 
 		BiSignature biSign = new BiSignature();
 		if (SIGNATURE) {
@@ -316,7 +318,7 @@ public class MessageCreator {
 	private static Random bundleIdGenerator = new Random();
 	// Default values for the RSU broadcast instructions for May PlugFest
 	private static final int PSID = 0x8003;
-	private static final int PRIORITY = 2;
+	private static final int PRIORITY = 32;
 	private static final long TX_MODE = 1;
 	private static final long TX_CHANNEL = 5;
 	private static final int TX_INTERVAL = 1;

@@ -117,6 +117,7 @@ public class MessageCreatorTest extends TestCase {
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
 
 		assertEquals(1, distList.getDistributionList().size());
+		
 	}
 
 	public void testCreateSingleEmptyAdvisorySituationDataDistribution() {

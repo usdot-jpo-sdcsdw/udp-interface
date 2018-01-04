@@ -70,7 +70,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>gov.dot.its.jpo.sdcsdw.DialogHandler.App</mainClass>
+							<mainClass>gov.dot.its.jpo.sdcsdw.UDPDialogHandler.UDPInterfaceApplication</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -95,7 +95,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>gov.dot.its.jpo.sdcsdw.DialogHandler.App</mainClass>
+							<mainClass>gov.dot.its.jpo.sdcsdw.UDPDialogHandler.UDPInterfaceApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -105,7 +105,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>
 				<configuration>
-					<mainClass>gov.dot.its.jpo.sdcsdw.DialogHandler.App</mainClass>
+					<mainClass>gov.dot.its.jpo.sdcsdw.UDPDialogHandler.UDPInterfaceApplication</mainClass>
 
 				</configuration>
 			</plugin>
