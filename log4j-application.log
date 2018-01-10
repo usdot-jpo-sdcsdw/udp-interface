@@ -1,0 +1,2552 @@
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session A7290F6D will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session E4D10A4F will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session C59C815D will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 3A693974 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 44BEED17 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 685A5224 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 14139C42 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session BCA5733A will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session B135C431 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session F1294B62 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 048FB563 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session F83C4006 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 59B69D3B will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session E3E2E22C will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 655DF43C will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 356FD665 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 1C139067 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session ED5B3545 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session E1427556 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 58BECF7E will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 1ED96902 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session DB471029 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 4B206F77 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session EBF07869 will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 4EB9022D will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session D8B7704C will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 87A9BB0B will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:188 - Message was of type ServiceRequest. The destination for all messages in session 11548A0C will be: IP: 10.17.11.204, PORT: 46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received ServiceRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: ServiceResponse
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send ServiceResponse to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:127 - Successfully encoded message:ServiceResponse
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:57 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:57 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:57 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:57 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:57 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:57 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:57 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:57 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataRequest message
+
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: AdvisorySituationDataDistributionList
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send AdvisorySituationDataDistributionList to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: A7290F6D
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: E4D10A4F
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: C59C815D
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 3A693974
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 44BEED17
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 685A5224
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 14139C42
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: BCA5733A
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: B135C431
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: F1294B62
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 048FB563
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: F83C4006
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 59B69D3B
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: E3E2E22C
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 655DF43C
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 356FD665
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 1C139067
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: ED5B3545
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: E1427556
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 58BECF7E
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 1ED96902
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: DB471029
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 4B206F77
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: EBF07869
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 4EB9022D
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: D8B7704C
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 87A9BB0B
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:75 - Found session, will send DataReceipt to 10.17.11.204:46850
+
+2018-01-10 11:42:58 INFO  DialogHandler:122 - Message was of type DataReceipt, remove session: 11548A0C
+2018-01-10 11:42:58 INFO  DialogHandler:140 - Converting response message object to XER
+2018-01-10 11:42:58 INFO  DialogHandler:151 - Encoding response message
+2018-01-10 11:42:58 INFO  DialogHandler:127 - Successfully encoded message:DataReceipt
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataAcceptance message
+
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  DialogHandler:211 - Successfully created response message object of type: DataReceipt
+
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:176 - Beginning message processing in dialogHandler
+2018-01-10 11:42:58 INFO  DialogHandler:198 - Determining Proper Response for received DataReceipt message
+
+2018-01-10 11:42:58 ERROR DialogHandler:207 - Message failed processing.
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  MockASDDAO:42 - INSERTED 2 BAD RECORDS!
+2018-01-10 11:42:58 ERROR DialogMessageFactory:138 - Failed to decode and convert to POJO ASD retrieved from Mongo
+gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.CodecFailedException: Could not convert PER data to XER: [B@8fe054
+	at gov.dot.its.jpo.sdcsdw.asn1.perxercodec.PerXerCodec.perToXer(PerXerCodec.java:73)
+	at gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.DialogMessageFactory.createListOfASDS(DialogMessageFactory.java:130)
+	at gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.DialogMessageFactory.getResponseMessage(DialogMessageFactory.java:94)
+	at gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.DialogMessageFactoryTest.testProcessDataRequestExpectMultpleDistributionsWithBadDataInStore(DialogMessageFactoryTest.java:299)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2018-01-10 11:42:58 ERROR DialogMessageFactory:125 - Got a bad message
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:179 - Creating Data Receipt
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:51 - Creating Service Respones
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:58 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:58 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:79 - Creating Advisory Situation Data Distribution List
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:96 - GOT 10 RECORDS, THATS A FULL BUNDLE
+2018-01-10 11:42:59 INFO  MessageCreator:112 - REACHED LIMIT OF BUNDLES PER DISTRIBUTION
+2018-01-10 11:42:59 INFO  MessageCreator:128 - HAVE SOME RECORDS LEFT OVER ADD A BUNDLE
