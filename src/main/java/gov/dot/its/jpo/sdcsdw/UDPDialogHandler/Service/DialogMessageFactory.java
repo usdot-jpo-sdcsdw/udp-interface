@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server;
+package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

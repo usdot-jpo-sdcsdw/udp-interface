@@ -10,7 +10,7 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.MessageCreator;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.MessageCreator;
 
 public class ASDDAO implements ASDDAOInterface {
 

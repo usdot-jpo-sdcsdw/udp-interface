@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server;
+package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

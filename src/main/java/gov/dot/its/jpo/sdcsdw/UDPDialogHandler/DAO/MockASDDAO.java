@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.bson.Document;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.MessageCreator;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.MessageCreator;
 
 public class MockASDDAO implements ASDDAOInterface {
 	// Return mock data -- for testing

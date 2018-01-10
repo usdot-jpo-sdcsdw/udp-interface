@@ -14,12 +14,12 @@ import com.mongodb.MongoClientOptions;
 import com.mongodb.ServerAddress;
 import com.mongodb.client.MongoDatabase;
 
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller.DialogHandler;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller.UDPDialogServer;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.ASDDAO;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockASDDAO;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.SessionsDAO;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.DialogHandler;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.DialogMessageFactory;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.UDPDialogServer;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.DialogMessageFactory;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.LocalSessionHandler;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.DistributedSessionHandler;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.SessionHandlerInterface;

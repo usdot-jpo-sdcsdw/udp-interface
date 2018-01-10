@@ -26,7 +26,7 @@ import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceRequest;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceResponse;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockASDDAO;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.DialogMessageFactory;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.DialogMessageFactory;
 
 import org.junit.Test;
 

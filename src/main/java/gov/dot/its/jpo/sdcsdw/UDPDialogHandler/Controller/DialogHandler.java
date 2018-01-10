@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server;
+package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
@@ -18,6 +18,7 @@ import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.DecodingFailedException
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Model.Response;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.DialogMessageFactory;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.SessionHandlerInterface;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.Asn1Type;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.Asn1Types;

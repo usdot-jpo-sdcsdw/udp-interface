@@ -10,7 +10,7 @@ import gov.dot.its.jpo.sdcsdw.MessageTypes.AdvisorySituationDataDistributionList
 import gov.dot.its.jpo.sdcsdw.MessageTypes.DataReceipt;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.DialogID;
 import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceResponse;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server.MessageCreator;
+import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.MessageCreator;
 import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
 import junit.framework.Test;
 import junit.framework.TestCase;
