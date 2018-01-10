@@ -14,12 +14,12 @@ import org.bson.Document;
 
 import com.mongodb.MongoException;
 
-import gov.dot.its.jpo.sdcsdw.MessageTypes.AdvisorySituationData;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DataAcceptance;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DataRequest;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DialogID;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DialogMessage;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceRequest;
+import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationData;
+import gov.dot.its.jpo.sdcsdw.Models.DataAcceptance;
+import gov.dot.its.jpo.sdcsdw.Models.DataRequest;
+import gov.dot.its.jpo.sdcsdw.Models.DialogID;
+import gov.dot.its.jpo.sdcsdw.Models.DialogMessage;
+import gov.dot.its.jpo.sdcsdw.Models.ServiceRequest;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.ASDDAOInterface;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.Asn1Types;

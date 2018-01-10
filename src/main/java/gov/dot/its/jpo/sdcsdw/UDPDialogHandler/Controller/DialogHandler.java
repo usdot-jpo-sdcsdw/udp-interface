@@ -9,11 +9,11 @@ import javax.xml.bind.JAXBException;
 
 import org.apache.log4j.Logger;
 
-import gov.dot.its.jpo.sdcsdw.MessageTypes.AdvisorySituationDataDistribution;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.AdvisorySituationDataDistributionList;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DataReceipt;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DialogMessage;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceRequest;
+import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistribution;
+import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistributionList;
+import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
+import gov.dot.its.jpo.sdcsdw.Models.DialogMessage;
+import gov.dot.its.jpo.sdcsdw.Models.ServiceRequest;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.DecodingFailedException;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;

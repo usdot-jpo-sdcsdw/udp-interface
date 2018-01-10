@@ -1,9 +1,9 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server;
+package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller;
 
-import gov.dot.its.jpo.sdcsdw.MessageTypes.AdvisorySituationDataDistribution;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DataReceipt;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DialogMessage;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceResponse;
+import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistribution;
+import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
+import gov.dot.its.jpo.sdcsdw.Models.DialogMessage;
+import gov.dot.its.jpo.sdcsdw.Models.ServiceResponse;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller.DialogHandler;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockASDDAO;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;

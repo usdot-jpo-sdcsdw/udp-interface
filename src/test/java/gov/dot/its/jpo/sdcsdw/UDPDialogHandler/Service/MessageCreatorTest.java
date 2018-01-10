@@ -1,15 +1,15 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Server;
+package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.xml.bind.JAXBException;
 
-import gov.dot.its.jpo.sdcsdw.MessageTypes.AdvisorySituationData;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.AdvisorySituationDataDistributionList;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DataReceipt;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.DialogID;
-import gov.dot.its.jpo.sdcsdw.MessageTypes.ServiceResponse;
+import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationData;
+import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistributionList;
+import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
+import gov.dot.its.jpo.sdcsdw.Models.DialogID;
+import gov.dot.its.jpo.sdcsdw.Models.ServiceResponse;
 import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.MessageCreator;
 import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
 import junit.framework.Test;
