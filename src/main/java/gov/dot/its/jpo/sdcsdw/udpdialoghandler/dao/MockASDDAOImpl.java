@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.bson.Document;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.MessageCreator;
-
-public class MockASDDAO implements ASDDAOInterface {
+public class MockASDDAOImpl implements ASDDAOInterface {
 	// Return mock data -- for testing
 
 	public void setMockMessageCount(int msgCount) {
@@ -47,5 +45,5 @@ public class MockASDDAO implements ASDDAOInterface {
 
 	private boolean insertBadData = false;
 	private int mockMessagesToMake = 45;
-	private final static Logger logger = Logger.getLogger(MockASDDAO.class);
+	private final static Logger logger = Logger.getLogger(MockASDDAOImpl.class);
 }

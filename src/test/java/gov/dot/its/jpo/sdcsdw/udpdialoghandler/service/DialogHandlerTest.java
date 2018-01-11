@@ -1,16 +1,9 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.service;
 
 import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistribution;
 import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
 import gov.dot.its.jpo.sdcsdw.Models.DialogMessage;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceResponse;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller.DialogHandler;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockASDDAO;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Model.Response;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.DialogMessageFactory;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.LocalSessionHandler;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.Asn1Types;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.PerXerCodec;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.CodecFailedException;
@@ -18,6 +11,13 @@ import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.FormattingFailedExcepti
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.UnformattingFailedException;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.per.RawPerData;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.xer.RawXerData;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao.MockASDDAOImpl;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.KeyNotFoundException;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.ProcessingFailedException;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.model.Response;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.service.DialogHandler;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.service.MessageProcessor;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.session.LocalSessionHandler;
 import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -49,8 +49,8 @@ public class DialogHandlerTest
 	@BeforeClass
 	public static void setUp() {
 		sessionHandler = new LocalSessionHandler();
-		mockASDDAO = new MockASDDAO();
-		messageProcessor = new DialogMessageFactory(mockASDDAO);
+		mockASDDAO = new MockASDDAOImpl();
+		messageProcessor = new MessageProcessor(mockASDDAO);
 		dialogHandler = new DialogHandler(sessionHandler, messageProcessor);
 
 		try {
@@ -435,8 +435,8 @@ public class DialogHandlerTest
 
 	private static DialogHandler dialogHandler;
 	private static LocalSessionHandler sessionHandler;
-	private static MockASDDAO mockASDDAO;
-	private static DialogMessageFactory messageProcessor;
+	private static MockASDDAOImpl mockASDDAO;
+	private static MessageProcessor messageProcessor;
 	private static InetAddress address;
 	private static MessageDigest digest;
 

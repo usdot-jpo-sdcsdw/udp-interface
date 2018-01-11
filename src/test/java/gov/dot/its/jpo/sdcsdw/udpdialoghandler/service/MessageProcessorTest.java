@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -24,18 +24,18 @@ import gov.dot.its.jpo.sdcsdw.Models.SeqID;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceRegion;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceRequest;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceResponse;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockASDDAO;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.DialogMessageFactory;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao.MockASDDAOImpl;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.ProcessingFailedException;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.service.MessageProcessor;
 
 import org.junit.Test;
 
-public class DialogMessageFactoryTest {
+public class MessageProcessorTest {
 
 	@BeforeClass
 	public static void setUp() {
-		mockASDDAO = new MockASDDAO();
-		messageProcessor = new DialogMessageFactory(mockASDDAO);
+		mockASDDAO = new MockASDDAOImpl();
+		messageProcessor = new MessageProcessor(mockASDDAO);
 	}
 
 	@Test
@@ -393,7 +393,7 @@ public class DialogMessageFactoryTest {
 	 * 
 	 */
 
-	private static DialogMessageFactory messageProcessor;
-	private static MockASDDAO mockASDDAO;
+	private static MessageProcessor messageProcessor;
+	private static MockASDDAOImpl mockASDDAO;
 
 }

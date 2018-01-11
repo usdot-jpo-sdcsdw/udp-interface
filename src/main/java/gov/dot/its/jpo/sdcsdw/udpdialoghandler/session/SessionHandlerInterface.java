@@ -1,8 +1,8 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.session;
 
 import java.net.InetSocketAddress;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.KeyNotFoundException;
 
 public interface SessionHandlerInterface {
 	public InetSocketAddress getSession(String requestID) throws KeyNotFoundException;

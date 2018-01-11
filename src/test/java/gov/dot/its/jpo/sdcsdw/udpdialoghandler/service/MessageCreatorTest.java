@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistributionList;
 import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
 import gov.dot.its.jpo.sdcsdw.Models.DialogID;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceResponse;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.MessageCreator;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.service.MessageCreator;
 import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
 import junit.framework.Test;
 import junit.framework.TestCase;

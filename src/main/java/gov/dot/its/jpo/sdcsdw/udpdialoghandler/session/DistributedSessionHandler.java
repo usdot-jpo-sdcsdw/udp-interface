@@ -1,12 +1,12 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.session;
 
 import java.net.InetSocketAddress;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.SessionsDAO;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;
-
 import org.apache.log4j.Logger;
 import org.bson.Document;
+
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao.SessionsDAO;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.KeyNotFoundException;
 
 /**
  * 

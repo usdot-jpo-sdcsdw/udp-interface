@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Model;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.model;
 
 import java.net.InetSocketAddress;
 import java.util.List;

@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao;
 
 import java.util.List;
 

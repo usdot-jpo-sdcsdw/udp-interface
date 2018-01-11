@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.service;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
@@ -14,12 +14,6 @@ import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistributionList;
 import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
 import gov.dot.its.jpo.sdcsdw.Models.DialogMessage;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceRequest;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.DecodingFailedException;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Model.Response;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.DialogMessageFactory;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.SessionHandlerInterface;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.Asn1Type;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.Asn1Types;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.PerXerCodec;
@@ -28,6 +22,11 @@ import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.FormattingFailedExcepti
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.UnformattingFailedException;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.per.RawPerData;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.xer.RawXerData;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.DecodingFailedException;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.KeyNotFoundException;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.ProcessingFailedException;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.model.Response;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.session.SessionHandlerInterface;
 import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
 
 /**
@@ -37,7 +36,7 @@ import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
  */
 public class DialogHandler {
 
-	public DialogHandler(SessionHandlerInterface sessionHandler, DialogMessageFactory messageProcessor) {
+	public DialogHandler(SessionHandlerInterface sessionHandler, MessageProcessor messageProcessor) {
 		this.sessionHandler = sessionHandler;
 		this.messageFactory = messageProcessor;
 	}
@@ -289,6 +288,6 @@ public class DialogHandler {
 	}
 
 	private SessionHandlerInterface sessionHandler = null;
-	private DialogMessageFactory messageFactory;
+	private MessageProcessor messageFactory;
 	private final static Logger logger = Logger.getLogger(DialogHandler.class);
 }

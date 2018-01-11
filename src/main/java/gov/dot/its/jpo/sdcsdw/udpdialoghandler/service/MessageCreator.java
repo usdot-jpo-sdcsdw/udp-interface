@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.service;
 
 import java.util.ArrayList;
 import java.util.Calendar;

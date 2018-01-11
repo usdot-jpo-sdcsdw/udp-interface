@@ -61,16 +61,36 @@
 
 	</dependencies>
 
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<reportSets>
+					<reportSet>
+						<reports>
+							<!-- select non-aggregate reports -->
+							<report>report</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+			</plugin>
+		</plugins>
+	</reporting>
 
 	<build>
 		<plugins>
-
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.0</version>
+			</plugin>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>gov.dot.its.jpo.sdcsdw.UDPDialogHandler.UDPInterfaceApplication</mainClass>
+							<mainClass>gov.dot.its.jpo.sdcsdw.udpdialoghandler.UDPInterfaceApplication</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -95,7 +115,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>gov.dot.its.jpo.sdcsdw.UDPDialogHandler.UDPInterfaceApplication</mainClass>
+							<mainClass>gov.dot.its.jpo.sdcsdw.udpdialoghandler.UDPInterfaceApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -105,7 +125,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>
 				<configuration>
-					<mainClass>gov.dot.its.jpo.sdcsdw.UDPDialogHandler.UDPInterfaceApplication</mainClass>
+					<mainClass>gov.dot.its.jpo.sdcsdw.udpdialoghandler.UDPInterfaceApplication</mainClass>
 
 				</configuration>
 			</plugin>

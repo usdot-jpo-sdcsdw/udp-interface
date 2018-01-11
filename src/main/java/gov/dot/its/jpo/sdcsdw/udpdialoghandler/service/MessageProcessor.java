@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.service;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -20,8 +20,6 @@ import gov.dot.its.jpo.sdcsdw.Models.DataRequest;
 import gov.dot.its.jpo.sdcsdw.Models.DialogID;
 import gov.dot.its.jpo.sdcsdw.Models.DialogMessage;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceRequest;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.ASDDAOInterface;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.Asn1Types;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.PerXerCodec;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.CodecFailedException;
@@ -29,11 +27,13 @@ import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.FormattingFailedExcepti
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.exception.UnformattingFailedException;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.per.RawPerData;
 import gov.dot.its.jpo.sdcsdw.asn1.perxercodec.xer.RawXerData;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao.ASDDAOInterface;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.ProcessingFailedException;
 import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
 
-public class DialogMessageFactory {
+public class MessageProcessor {
 
-	public DialogMessageFactory(ASDDAOInterface asdDAO, double NWCornerLatStr, double NWCornerLonStr, double SECornerLatStr,
+	public MessageProcessor(ASDDAOInterface asdDAO, double NWCornerLatStr, double NWCornerLonStr, double SECornerLatStr,
 			double SECornerLonStr) {
 
 		try {
@@ -47,7 +47,7 @@ public class DialogMessageFactory {
 		setRegion(NWCornerLatStr, NWCornerLonStr, SECornerLatStr, SECornerLonStr);
 	}
 
-	public DialogMessageFactory(ASDDAOInterface asdDAO) {
+	public MessageProcessor(ASDDAOInterface asdDAO) {
 		this(asdDAO, DEFALUT_NW_CNR_LATITUDE, DEFALUT_NW_CNR_LONGITUDE, DEFALUT_SE_CNR_LATITUDE,
 				DEFALUT_SE_CNR_LONGITUDE);
 	}
@@ -165,6 +165,6 @@ public class DialogMessageFactory {
 	static final double DEFALUT_SE_CNR_LATITUDE = 41.0;
 	static final double DEFALUT_SE_CNR_LONGITUDE = -82.0;
 	private ASDDAOInterface asdDAO;
-	private final static Logger logger = Logger.getLogger(DialogMessageFactory.class);
+	private final static Logger logger = Logger.getLogger(MessageProcessor.class);
 
 }

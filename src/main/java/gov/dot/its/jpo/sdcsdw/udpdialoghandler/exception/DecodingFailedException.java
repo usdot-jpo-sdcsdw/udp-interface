@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception;
 
 public class DecodingFailedException extends Exception
 {

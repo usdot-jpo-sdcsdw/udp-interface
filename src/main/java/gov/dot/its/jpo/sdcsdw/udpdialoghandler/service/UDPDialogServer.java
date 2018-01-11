@@ -1,22 +1,14 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.service;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.SocketException;
-import java.util.Properties;
-import java.util.concurrent.TimeoutException;
-
 import org.apache.log4j.Logger;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.InitializationError;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.ProcessingFailedException;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Model.Response;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.LocalSessionHandler;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.ProcessingFailedException;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.model.Response;
 
 /**
  * @author mna30547 This Class creates a thread which listens on a port for UDP

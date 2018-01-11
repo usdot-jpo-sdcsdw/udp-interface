@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,11 +10,9 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.MessageCreator;
+public class ASDDAOImpl implements ASDDAOInterface {
 
-public class ASDDAO implements ASDDAOInterface {
-
-	public ASDDAO(MongoDatabase mongo, String DbName, String collectionName) {
+	public ASDDAOImpl(MongoDatabase mongo, String DbName, String collectionName) {
 		// Initialize connection to backend DB
 		this.collection = mongo.getCollection(collectionName);
 
@@ -42,6 +40,6 @@ public class ASDDAO implements ASDDAOInterface {
 	}
 
 	private MongoCollection<Document> collection;
-	private final static Logger logger = Logger.getLogger(ASDDAO.class);
+	private final static Logger logger = Logger.getLogger(ASDDAOImpl.class);
 
 }

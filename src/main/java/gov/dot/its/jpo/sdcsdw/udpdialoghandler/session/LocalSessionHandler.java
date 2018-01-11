@@ -1,9 +1,9 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.session;
 
 import java.net.InetSocketAddress;
 import java.util.HashMap;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception.KeyNotFoundException;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception.KeyNotFoundException;
 
 
 

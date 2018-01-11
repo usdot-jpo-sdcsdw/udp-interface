@@ -1,4 +1,4 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler;
 
 
 import java.io.FileInputStream;
@@ -14,15 +14,15 @@ import com.mongodb.MongoClientOptions;
 import com.mongodb.ServerAddress;
 import com.mongodb.client.MongoDatabase;
 
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller.DialogHandler;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Controller.UDPDialogServer;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.ASDDAO;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.MockASDDAO;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.DAO.SessionsDAO;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Service.DialogMessageFactory;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.LocalSessionHandler;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.DistributedSessionHandler;
-import gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Session.SessionHandlerInterface;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao.ASDDAOImpl;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao.MockASDDAOImpl;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.dao.SessionsDAO;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.service.DialogHandler;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.service.MessageProcessor;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.service.UDPDialogServer;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.session.DistributedSessionHandler;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.session.LocalSessionHandler;
+import gov.dot.its.jpo.sdcsdw.udpdialoghandler.session.SessionHandlerInterface;
 
 /**
  * Entry Point
@@ -54,11 +54,11 @@ public class UDPInterfaceApplication {
 		}
 
 		SessionHandlerInterface sessionHandler;
-		DialogMessageFactory messageProcessor;
+		MessageProcessor messageProcessor;
 
 		if (debug.equals("True")) {
 			sessionHandler = new LocalSessionHandler();
-			messageProcessor = new DialogMessageFactory(new MockASDDAO());
+			messageProcessor = new MessageProcessor(new MockASDDAOImpl());
 
 		} else {
 			// READ ALL PROPERTIES AND CONFIRM THEY EXIST
@@ -120,10 +120,10 @@ public class UDPInterfaceApplication {
 
 			// Initialize ASD DAO which the message processor will use to get data from the
 			// mongo DB
-			ASDDAO asdDAO = new ASDDAO(mongo, MongoDBName, TIMSCollectionName);
+			ASDDAOImpl asdDAO = new ASDDAOImpl(mongo, MongoDBName, TIMSCollectionName);
 
 			// Initialize Message Processor
-			messageProcessor = new DialogMessageFactory(asdDAO, NWCornerLat, NWCornerLon, SECornerLat, SECornerLon);
+			messageProcessor = new MessageProcessor(asdDAO, NWCornerLat, NWCornerLon, SECornerLat, SECornerLon);
 		}
 
 		// Initialize Dialog Handler

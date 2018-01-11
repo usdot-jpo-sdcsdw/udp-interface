@@ -1,6 +1,9 @@
-package gov.dot.its.jpo.sdcsdw.UDPDialogHandler.Exception;
+package gov.dot.its.jpo.sdcsdw.udpdialoghandler.exception;
 
-public class InitializationError extends Exception {
+public class KeyNotFoundException extends Exception
+{
+
+
 	/**
 	 * 
 	 */
@@ -11,7 +14,7 @@ public class InitializationError extends Exception {
 	 * @param msg Message for this exception
 	 * @param cause The underlying exception
 	 */
-	public InitializationError(String msg, Exception cause)
+	public KeyNotFoundException(String msg, Exception cause)
 	{
 		super(msg, cause);
 	}
@@ -20,7 +23,7 @@ public class InitializationError extends Exception {
 	 * 
 	 * @param msg Message for this exception
 	 */
-	public InitializationError(String msg)
+	public KeyNotFoundException(String msg)
 	{
 		super(msg);
 	}
