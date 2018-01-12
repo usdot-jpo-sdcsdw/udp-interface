@@ -182,7 +182,14 @@ public class DialogHandler {
 
 		if (requestMessage instanceof ServiceRequest) {
 			// If the request is a ServiceRequest, start a session for the dialog
-			int sourcePort = Integer.parseInt(((ServiceRequest) requestMessage).getDestination().getPort());
+			int sourcePort;
+			try {
+				sourcePort = Integer.parseInt(((ServiceRequest) requestMessage).getDestination().getPort());
+			} catch (NumberFormatException e) {
+				throw new ProcessingFailedException(
+						"Failed to parse destination port as an integer. Can't determine where responses"
+								+ " should go for this ServiceRequest");
+			}
 			InetSocketAddress source = new InetSocketAddress(srcAddress.getHostAddress(), sourcePort);
 			logger.info(String.format(
 					"Message was of type ServiceRequest. The destination for all messages in session %s "
