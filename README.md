@@ -1,6 +1,6 @@
 # UDP Interface
 
-Currently the SDC/SDW stores and distributes Traveler Information Messages (TIMs). The UDP Interface of the mvp SDC/SDW allows users to programmatically receive these TIMS bundled as Advisory Situation Data Distributions. To receive data from this interface, a specific UDP dialog sequence must be followed. The below diagram depicts this sequence. 
+The SDC/SDW stores and distributes Traveler Information Messages (TIMs). The UDP Interface of the mvp SDC/SDW allows users to programmatically receive these TIMS bundled as Advisory Situation Data Distributions. To receive data from this interface, a specific UDP dialog sequence must be followed. The below diagram depicts this sequence. 
 
 ![UDP Dialog Sequence](images/udp_dialog_sequence.png)
 
