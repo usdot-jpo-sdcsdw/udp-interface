@@ -17,14 +17,14 @@ The SDC/SDW stores and distributes Traveler Information Messages (TIMs). The UDP
 
 #### Step 1 - Clone this repository
 ```
-git clone <ADD LINK HERE>
+git clone https://github.com/usdot-jpo-sdcsdw/udp-interface.git
 ```
 #### Step 2 - Clone and install dependencies
 Follow instructions for cloning and installing the common-models and per-xer-codec repositories
 
 #### Step 2 - Build the application
 ```
-cd udpinterface
+cd udp-interface
 mvn clean install
 ```
 
