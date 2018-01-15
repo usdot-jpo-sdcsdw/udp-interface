@@ -4,7 +4,7 @@
 
 	<groupId>gov.dot.its.jpo.sdcsdw</groupId>
 	<artifactId>UDPInterface</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>UDPInterface</name>
@@ -29,13 +29,13 @@
 		<dependency>
 			<groupId>gov.dot.its.jpo.sdcsdw</groupId>
 			<artifactId>per-xer-codec</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>gov.dot.its.jpo.sdcsdw</groupId>
-			<artifactId>xer-jaxb-codec</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>common-models</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
