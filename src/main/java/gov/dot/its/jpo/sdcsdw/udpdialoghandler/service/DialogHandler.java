@@ -153,9 +153,11 @@ public class DialogHandler {
 		byte[] encodedMessageToReturn = null;
 
 		try {
+			System.out.println(asn1MessageType);
 			encodedMessageToReturn = encodePayloadAs(xerEncodedResponseMessageToReturn, asn1MessageType);
 		} catch (UnformattingFailedException | CodecFailedException | FormattingFailedException e) {
-			throw new ProcessingFailedException("Response message failed to encode" + e.getMessage());
+			throw new ProcessingFailedException(
+					"Response message failed to encode " + asn1MessageType.getName() + " " + e.getMessage());
 		}
 
 		return encodedMessageToReturn;

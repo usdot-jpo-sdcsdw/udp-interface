@@ -169,6 +169,59 @@ public class DialogHandlerTest
 		}
 
 	}
+	
+	@Test
+	public void B2processAndCreateResponseForDataRequestWithSingleDistribution() {
+		byte[] buffer = null;
+		mockASDDAO.setMockMessageCount(1);
+
+		for (String dataRequestMessage : dataRequestMessages) {
+
+			try {
+				buffer = Hex.decodeHex(dataRequestMessage.replace(" ", ""));
+			} catch (DecoderException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			Response response = null;
+			try {
+				response = dialogHandler.processAndCreateResponse(address, buffer);
+			} catch (ProcessingFailedException e) {
+				fail("Expected a proper response object with a AdvisorySituationDataDistributionList. Failed while processing: "
+						+ e.getMessage());
+			}
+
+			assertEquals(46850, response.getDestination().getPort());
+			assertEquals(address.getHostAddress(), response.getDestination().getAddress().getHostAddress());
+			assertEquals(1, response.getResponseList().size());
+			for (byte[] distribution : response.getResponseList()) {
+				String distributionXER = null;
+				try {
+					distributionXER = PerXerCodec.perToXer(
+							Asn1Types.getAsn1TypeByName("AdvisorySituationDataDistribution"), distribution,
+							RawPerData.unformatter, RawXerData.formatter);
+				} catch (CodecFailedException | FormattingFailedException | UnformattingFailedException e) {
+					fail(String.format(
+							"Failed converting distribution bytes to XER using the ASN1 encoder/decoder. Message: %s, Error: %s\n",
+							Hex.encodeHexString(distribution), e.getMessage()));
+				}
+
+				DialogMessage responseObject = null;
+				try {
+					responseObject = XerJaxbCodec.XerToJaxbPojo(distributionXER);
+				} catch (JAXBException e) {
+					fail(String.format(
+							"Failed converting distribution XER to POJO XerJaxbCodec. Message: %s, Error: %s\n",
+							distributionXER, e.getMessage()));
+				}
+
+				assertTrue(responseObject instanceof AdvisorySituationDataDistribution);
+				AdvisorySituationDataDistribution distributionResponse = (AdvisorySituationDataDistribution) responseObject;
+
+			}
+		}
+
+	}
 
 	@Test
 	public void CprocessAndCreateResponseForDataRequestWithSingleEmptyDistribution() {

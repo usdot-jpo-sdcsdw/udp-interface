@@ -2,6 +2,7 @@ package gov.dot.its.jpo.sdcsdw.udpdialoghandler.service;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Random;
@@ -224,6 +225,28 @@ public class MessageCreator {
 			biDeliveryStop.fillAllFields(stopTime);
 		}
 
+		else if (startTime!=null && stopTime==null) {
+			biDeliveryStart.fillAllFields(startTime);
+			
+			Calendar now = GregorianCalendar.getInstance(TimeZone.getTimeZone("UTC"));
+			int startYear=Integer.parseInt(startTime.getYear());
+			int startMonth=Integer.parseInt(startTime.getMonth());
+			int startDate=Integer.parseInt(startTime.getDay());
+			int startHour=Integer.parseInt(startTime.getHour());
+			int startMinute=Integer.parseInt(startTime.getMinute());
+			
+			now.setTime(new Date(startYear,startMonth,startDate,startHour,startMinute));
+			now.add(Calendar.DATE, 7);
+			
+			
+			biDeliveryStop.setDay(Integer.toString(now.get(Calendar.DAY_OF_MONTH)));
+			biDeliveryStop.setHour(Integer.toString(now.get(Calendar.HOUR_OF_DAY)));
+			biDeliveryStop.setMinute(Integer.toString(now.get(Calendar.MINUTE)));
+			biDeliveryStop.setMonth(Integer.toString(now.get(Calendar.MONTH)));
+			biDeliveryStop.setYear(Integer.toString(now.get(Calendar.YEAR)));
+			
+		}
+		
 		else {
 			// if start time and stop time were NOT defined, we've gotta do it ourselves!
 			Calendar now = GregorianCalendar.getInstance(TimeZone.getTimeZone("UTC"));
@@ -233,7 +256,9 @@ public class MessageCreator {
 			biDeliveryStart.setMonth(Integer.toString(now.get(Calendar.MONTH)));
 			biDeliveryStart.setYear(Integer.toString(now.get(Calendar.YEAR)));
 
-			biDeliveryStop.setDay(Integer.toString(now.get(Calendar.DAY_OF_MONTH) + 7));
+			now.add(Calendar.DATE, 7);
+			
+			biDeliveryStop.setDay(Integer.toString(now.get(Calendar.DAY_OF_MONTH)));
 			biDeliveryStop.setHour(Integer.toString(now.get(Calendar.HOUR_OF_DAY)));
 			biDeliveryStop.setMinute(Integer.toString(now.get(Calendar.MINUTE)));
 			biDeliveryStop.setMonth(Integer.toString(now.get(Calendar.MONTH)));
