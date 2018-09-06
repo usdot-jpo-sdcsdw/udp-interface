@@ -242,7 +242,7 @@ public class MessageCreator {
 			biDeliveryStop.setDay(Integer.toString(now.get(Calendar.DAY_OF_MONTH)));
 			biDeliveryStop.setHour(Integer.toString(now.get(Calendar.HOUR_OF_DAY)));
 			biDeliveryStop.setMinute(Integer.toString(now.get(Calendar.MINUTE)));
-			biDeliveryStop.setMonth(Integer.toString(now.get(Calendar.MONTH)));
+			biDeliveryStop.setMonth(Integer.toString(now.get(Calendar.MONTH))+1);
 			biDeliveryStop.setYear(Integer.toString(now.get(Calendar.YEAR)));
 			
 		}
@@ -253,7 +253,7 @@ public class MessageCreator {
 			biDeliveryStart.setDay(Integer.toString(now.get(Calendar.DAY_OF_MONTH)));
 			biDeliveryStart.setHour(Integer.toString(now.get(Calendar.HOUR_OF_DAY)));
 			biDeliveryStart.setMinute(Integer.toString(now.get(Calendar.MINUTE)));
-			biDeliveryStart.setMonth(Integer.toString(now.get(Calendar.MONTH))+1);
+			biDeliveryStart.setMonth(Integer.toString(now.get(Calendar.MONTH)+1));
 			biDeliveryStart.setYear(Integer.toString(now.get(Calendar.YEAR)));
 
 			now.add(Calendar.DATE, 7);
@@ -261,7 +261,7 @@ public class MessageCreator {
 			biDeliveryStop.setDay(Integer.toString(now.get(Calendar.DAY_OF_MONTH)));
 			biDeliveryStop.setHour(Integer.toString(now.get(Calendar.HOUR_OF_DAY)));
 			biDeliveryStop.setMinute(Integer.toString(now.get(Calendar.MINUTE)));
-			biDeliveryStop.setMonth(Integer.toString(now.get(Calendar.MONTH)));
+			biDeliveryStop.setMonth(Integer.toString(now.get(Calendar.MONTH)+1));
 			biDeliveryStop.setYear(Integer.toString(now.get(Calendar.YEAR)));
 
 		}
