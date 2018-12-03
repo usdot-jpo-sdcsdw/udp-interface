@@ -87,15 +87,19 @@ public class MessageCreator {
 		seqID.setData("");
 
 		int bundlesMade = 0;
+		int bundlesMadeCummulative = 0;
 		int recordsMade = 0;
+		int recordsMadeCummulative = 0;
 		int recordsMadeInThisBundle = 0;
 		for (int i = 0; i < asdList.size(); i++) {
 			record.add(broadcasts.get(i));
 			recordsMade++;
+			recordsMadeCummulative++;
 			recordsMadeInThisBundle++;
 			if (recordsMadeInThisBundle == MAX_BROADCASTS_PER_RECORD) {
 				logger.info("GOT 10 RECORDS, THATS A FULL BUNDLE");
 				bundlesMade++;
+				bundlesMadeCummulative++;
 				AsdRecords asdRecords = new AsdRecords();
 				asdRecords.setAdvisoryBroadcast(record.toArray(new AdvisoryBroadcast[record.size()]));
 				AdvisorySituationBundle bundle = new AdvisorySituationBundle();
@@ -104,9 +108,10 @@ public class MessageCreator {
 				bundle.setBundleId(String.format("%08X", bundleIdGenerator.nextInt()));
 				bundle.setAsdRecords(asdRecords);
 				bundles.add(bundle);
-
+				
 				record = new ArrayList<AdvisoryBroadcast>();
 				recordsMadeInThisBundle = 0;
+				
 
 				if (bundlesMade == MAX_BUNDLES_PER_DISTRIBUTION) {
 					// Can't make any more bundles in this distribution!
@@ -114,21 +119,23 @@ public class MessageCreator {
 					AdvisorySituationDataDistribution advSitDataDist = createDistribution(bundles, bundlesMade,
 							dialogIDObj, groupID, requestID, recordsMade, seqID);
 					distributionList.add(advSitDataDist);
-
+					
 					recordsMade = 0;
 					bundlesMade = 0;
 					bundles = new ArrayList<AdvisorySituationBundle>();
-
+				
 				}
 
 			}
 
 		}
+		
 
 		if (record.size() > 0) {
 			logger.info("HAVE SOME RECORDS LEFT OVER ADD A BUNDLE");
 			// we have some records that don't make a complete bundle by themselves
 			bundlesMade++;
+			bundlesMadeCummulative++;
 			AsdRecords asdRecords = new AsdRecords();
 			asdRecords.setAdvisoryBroadcast(record.toArray(new AdvisoryBroadcast[record.size()]));
 			AdvisorySituationBundle bundle = new AdvisorySituationBundle();
@@ -144,7 +151,8 @@ public class MessageCreator {
 			AdvisorySituationDataDistribution advSitDataDist = createDistribution(bundles, bundlesMade, dialogIDObj,
 					groupID, requestID, recordsMade, seqID);
 			distributionList.add(advSitDataDist);
-
+			
+			
 			recordsMade = 0;
 			bundlesMade = 0;
 			bundles = new ArrayList<AdvisorySituationBundle>();
@@ -155,9 +163,17 @@ public class MessageCreator {
 					recordsMadeInThisBundle, seqID));
 		}
 
+		
+		for ( AdvisorySituationDataDistribution el : distributionList ) {
+			el.setRecordCount(Integer.toString(recordsMadeCummulative));
+			el.setBundleCount(Integer.toString(bundlesMadeCummulative));
+		}
+		
 		AdvisorySituationDataDistributionList responseDistributionList = new AdvisorySituationDataDistributionList(
 				distributionList);
 		responseDistributionList.setRequestID(requestID);
+		
+		
 		return responseDistributionList;
 	}
 
