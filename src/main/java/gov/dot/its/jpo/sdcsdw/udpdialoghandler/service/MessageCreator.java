@@ -164,9 +164,9 @@ public class MessageCreator {
 		}
 
 		
-		for ( AdvisorySituationDataDistribution el : distributionList ) {
-			el.setRecordCount(Integer.toString(recordsMadeCummulative));
-			el.setBundleCount(Integer.toString(bundlesMadeCummulative));
+		for ( AdvisorySituationDataDistribution dist : distributionList ) {
+			dist.setRecordCount(Integer.toString(recordsMadeCummulative));
+			dist.setBundleCount(Integer.toString(bundlesMadeCummulative));
 		}
 		
 		AdvisorySituationDataDistributionList responseDistributionList = new AdvisorySituationDataDistributionList(
