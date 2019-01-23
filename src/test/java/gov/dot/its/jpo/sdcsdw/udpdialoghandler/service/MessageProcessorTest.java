@@ -250,8 +250,8 @@ public class MessageProcessorTest {
 				.getDistributionList()) {
 			assertTrue(distribution instanceof AdvisorySituationDataDistribution);
 
-			assertEquals("40", distribution.getRecordCount());
-			assertEquals("4", distribution.getBundleCount());
+			assertEquals("80", distribution.getRecordCount());
+			assertEquals("8", distribution.getBundleCount());
 
 			assertEquals(dataRequest.getDialogID().getDialogId(), distribution.getDialogID().getDialogId());
 
@@ -261,6 +261,78 @@ public class MessageProcessorTest {
 		}
 
 	}
+	
+	
+	
+	@Test
+	public void testProcessDataRequestExpectMultpleDistributionsNonBoundary() {
+
+		DataRequest dataRequest = new DataRequest();
+
+		DialogID dialogID = new DialogID();
+		dialogID.setAdvSitDatDist("");
+		dataRequest.setDialogID(dialogID);
+		dataRequest.setDistType("02");
+		dataRequest.setGroupID("0000000");
+		dataRequest.setRequestID("E054E21B");
+
+		SeqID seqID = new SeqID();
+		seqID.setDataReq("");
+		dataRequest.setSeqID(seqID);
+
+		// ServiceRegion
+		NwCorner nwCorner = new NwCorner();
+		nwCorner.setLat("483743530");
+		nwCorner.setLong("-1316439680");
+
+		SeCorner seCorner = new SeCorner();
+		seCorner.setLat("241562500");
+		seCorner.setLong("-723472400");
+
+		ServiceRegion serviceRegion = new ServiceRegion();
+		serviceRegion.setNwCorner(nwCorner);
+		serviceRegion.setSeCorner(seCorner);
+		dataRequest.setServiceRegion(serviceRegion);
+
+		mockASDDAO.setMockMessageCount(357);
+		DialogMessage responseObject = null;
+		try {
+			responseObject = messageProcessor.getResponseMessage(dataRequest,
+					Hex.decodeHex("0c400000001c0a9c436293d20150e6945bf88815b908805503de04"));
+		} catch (NoSuchElementException | ProcessingFailedException | DecoderException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		assertTrue(responseObject instanceof AdvisorySituationDataDistributionList);
+		AdvisorySituationDataDistributionList actualAdvisorySituationDataDistributionList = (AdvisorySituationDataDistributionList) responseObject;
+		
+		assertEquals(9, actualAdvisorySituationDataDistributionList.getDistributionList().size());
+		
+		
+		for (AdvisorySituationDataDistribution distribution : actualAdvisorySituationDataDistributionList
+				.getDistributionList()) {
+			System.out.println(distribution.getRecordCount());
+		}
+		
+		assertEquals(dataRequest.getRequestID(), actualAdvisorySituationDataDistributionList.getRequestID());
+		for (AdvisorySituationDataDistribution distribution : actualAdvisorySituationDataDistributionList
+				.getDistributionList()) {
+			assertTrue(distribution instanceof AdvisorySituationDataDistribution);
+			
+			assertEquals("357", distribution.getRecordCount());
+			assertEquals("36", distribution.getBundleCount());
+
+			assertEquals(dataRequest.getDialogID().getDialogId(), distribution.getDialogID().getDialogId());
+
+			assertEquals(dataRequest.getRequestID(), distribution.getRequestID());
+
+			assertEquals(dataRequest.getGroupID(), distribution.getGroupID());
+
+		}
+
+	}
+	
 
 	@Test
 	public void testProcessDataRequestExpectMultpleDistributionsWithBadDataInStore() {
@@ -312,8 +384,8 @@ public class MessageProcessorTest {
 				.getDistributionList()) {
 			assertTrue(distribution instanceof AdvisorySituationDataDistribution);
 
-			assertEquals("40", distribution.getRecordCount());
-			assertEquals("4", distribution.getBundleCount());
+			assertEquals("80", distribution.getRecordCount());
+			assertEquals("8", distribution.getBundleCount());
 
 			assertEquals(dataRequest.getDialogID().getDialogId(), distribution.getDialogID().getDialogId());
 
@@ -321,6 +393,7 @@ public class MessageProcessorTest {
 
 			assertEquals(dataRequest.getGroupID(), distribution.getGroupID());
 		}
+		
 		mockASDDAO.setInsertBadData(false);
 	}
 

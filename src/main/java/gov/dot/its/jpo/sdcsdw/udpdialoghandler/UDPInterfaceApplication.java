@@ -57,8 +57,20 @@ public class UDPInterfaceApplication {
 		MessageProcessor messageProcessor;
 
 		if (debug.equals("True")) {
+			int mockMessageCount = 0;
+			
+			if ( props.getProperty("MockMessageCount") != null ) {
+				try {
+				mockMessageCount = Integer.parseInt( props.getProperty("MockMessageCount") );
+				} catch (NumberFormatException e) {
+					logger.error("MockMessageCount was not an integer");
+				}
+			}
+			
 			sessionHandler = new LocalSessionHandler();
-			messageProcessor = new MessageProcessor(new MockASDDAOImpl());
+			MockASDDAOImpl asdDAO = new MockASDDAOImpl();
+			asdDAO.setMockMessageCount(mockMessageCount);
+			messageProcessor = new MessageProcessor(asdDAO);
 
 		} else {
 			// READ ALL PROPERTIES AND CONFIRM THEY EXIST
