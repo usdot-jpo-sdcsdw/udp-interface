@@ -16,8 +16,8 @@ import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistribution;
 import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistributionList;
 import gov.dot.its.jpo.sdcsdw.Models.AsdRecords;
 import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
+import gov.dot.its.jpo.sdcsdw.Models.DialogIDXml;
 import gov.dot.its.jpo.sdcsdw.Models.DialogID;
-import gov.dot.its.jpo.sdcsdw.Models.DialogIdType;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceResponse;
 import gov.dot.its.jpo.sdcsdw.udpdialoghandler.service.MessageCreator;
 import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
@@ -44,8 +44,7 @@ public class MessageCreatorTest extends TestCase {
 	}
 
 	public void testCreateServiceResponse() {
-		DialogID expectedDialog = new DialogID();
-		expectedDialog.setDialogId(DialogIdType.ADV_SIT_DAT_DIST);
+		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
 		ServiceResponse actualServiceResponse = MessageCreator.createServiceResponse(expectedDialog, "TESTGROUP",
 				"TESTREQUEST", "TESTHASH", "483743530", "-1316439680", "241562500", "-723472400");
 
@@ -71,8 +70,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = new DialogID();
-		expectedDialog.setDialogId(DialogIdType.ADV_SIT_DAT_DIST);
+		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -95,8 +93,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = new DialogID();
-		expectedDialog.setDialogId(DialogIdType.ADV_SIT_DAT_DIST);
+		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -129,8 +126,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = new DialogID();
-		expectedDialog.setDialogId(DialogIdType.ADV_SIT_DAT_DIST);
+		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -174,8 +170,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = new DialogID();
-		expectedDialog.setDialogId(DialogIdType.ADV_SIT_DAT_DIST);
+		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -211,8 +206,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = new DialogID();
-		expectedDialog.setDialogId(DialogIdType.ADV_SIT_DAT_DIST);
+		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -236,8 +230,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = new DialogID();
-		expectedDialog.setDialogId(DialogIdType.ADV_SIT_DAT_DIST);
+		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -246,8 +239,7 @@ public class MessageCreatorTest extends TestCase {
 	}
 
 	public void testCreateDataReceipt() {
-		DialogID expectedDialog = new DialogID();
-		expectedDialog.setDialogId(DialogIdType.ADV_SIT_DAT_DIST);
+		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
 		DataReceipt actualDataReceipt = MessageCreator.createDataReceipt(expectedDialog, "TESTGROUP", "TESTREQUEST");
 		assertEquals(expectedDialog, actualDataReceipt.getDialogID());
 		assertEquals("TESTGROUP", actualDataReceipt.getGroupID());
