@@ -44,7 +44,7 @@ public class MessageCreatorTest extends TestCase {
 	}
 
 	public void testCreateServiceResponse() {
-		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
+		DialogID expectedDialog = DialogID.fromValue("advSitDatDist");
 		ServiceResponse actualServiceResponse = MessageCreator.createServiceResponse(expectedDialog, "TESTGROUP",
 				"TESTREQUEST", "TESTHASH", "483743530", "-1316439680", "241562500", "-723472400");
 
@@ -59,7 +59,7 @@ public class MessageCreatorTest extends TestCase {
 		// CREATE TEST ASD
 		List<AdvisorySituationData> asdList = new ArrayList<AdvisorySituationData>();
 		for (int i = 0; i < 801; i++) {
-			String rawXER = "<AdvisorySituationData><dialogID><advSitDataDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><startTime><year>2017</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></startTime><stopTime><year>2018</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></stopTime><advisoryMessage>03805E001F5B70D07930EC9C236B00000000000F775D9B0301EA73E452D1539716C99E9D555100003F0BAD7580160307F82C5BF14005C00854E7C8A5A2A72E2D933D30579AAAA8B555508CE4539F22968A9CB8B64CF4C03F88600003E8F775D9B0</advisoryMessage></asdmDetails></AdvisorySituationData>";
+			String rawXER = "<AdvisorySituationData><dialogID><advSitDatDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><startTime><year>2017</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></startTime><stopTime><year>2018</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></stopTime><advisoryMessage>03805E001F5B70D07930EC9C236B00000000000F775D9B0301EA73E452D1539716C99E9D555100003F0BAD7580160307F82C5BF14005C00854E7C8A5A2A72E2D933D30579AAAA8B555508CE4539F22968A9CB8B64CF4C03F88600003E8F775D9B0</advisoryMessage></asdmDetails></AdvisorySituationData>";
 			AdvisorySituationData advSitData = null;
 			try {
 				advSitData = (AdvisorySituationData) XerJaxbCodec.XerToJaxbPojo(rawXER);
@@ -70,7 +70,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
+		DialogID expectedDialog = DialogID.fromValue("advSitDatDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -93,7 +93,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
+		DialogID expectedDialog = DialogID.fromValue("advSitDatDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -113,7 +113,7 @@ public class MessageCreatorTest extends TestCase {
 			cal.set(Calendar.DAY_OF_YEAR, d);
 			Date date = cal.getTime();
 
-			String rawXER = "<AdvisorySituationData><dialogID><advSitDataDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><startTime><year>2017</year><month>12</month><day>"
+			String rawXER = "<AdvisorySituationData><dialogID><advSitDatDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><startTime><year>2017</year><month>12</month><day>"
 					+ date.getDate()
 					+ "</day><hour>17</hour><minute>47</minute></startTime><advisoryMessage>03805E001F5B70D07930EC9C236B00000000000F775D9B0301EA73E452D1539716C99E9D555100003F0BAD7580160307F82C5BF14005C00854E7C8A5A2A72E2D933D30579AAAA8B555508CE4539F22968A9CB8B64CF4C03F88600003E8F775D9B0</advisoryMessage></asdmDetails></AdvisorySituationData>";
 			AdvisorySituationData advSitData = null;
@@ -126,7 +126,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
+		DialogID expectedDialog = DialogID.fromValue("advSitDatDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -159,7 +159,7 @@ public class MessageCreatorTest extends TestCase {
 			cal.set(Calendar.DAY_OF_YEAR, d);
 			Date date = cal.getTime();
 
-			String rawXER = "<AdvisorySituationData><dialogID><advSitDataDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><advisoryMessage>03805E001F5B70D07930EC9C236B00000000000F775D9B0301EA73E452D1539716C99E9D555100003F0BAD7580160307F82C5BF14005C00854E7C8A5A2A72E2D933D30579AAAA8B555508CE4539F22968A9CB8B64CF4C03F88600003E8F775D9B0</advisoryMessage></asdmDetails></AdvisorySituationData>";
+			String rawXER = "<AdvisorySituationData><dialogID><advSitDatDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><advisoryMessage>03805E001F5B70D07930EC9C236B00000000000F775D9B0301EA73E452D1539716C99E9D555100003F0BAD7580160307F82C5BF14005C00854E7C8A5A2A72E2D933D30579AAAA8B555508CE4539F22968A9CB8B64CF4C03F88600003E8F775D9B0</advisoryMessage></asdmDetails></AdvisorySituationData>";
 			AdvisorySituationData advSitData = null;
 			try {
 				advSitData = (AdvisorySituationData) XerJaxbCodec.XerToJaxbPojo(rawXER);
@@ -170,7 +170,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
+		DialogID expectedDialog = DialogID.fromValue("advSitDatDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -195,7 +195,7 @@ public class MessageCreatorTest extends TestCase {
 		// CREATE TEST ASD
 		List<AdvisorySituationData> asdList = new ArrayList<AdvisorySituationData>();
 		for (int i = 0; i < 40; i++) {
-			String rawXER = "<AdvisorySituationData><dialogID><advSitDataDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><startTime><year>2017</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></startTime><stopTime><year>2018</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></stopTime><advisoryMessage>03805E001F5B70D07930EC9C236B00000000000F775D9B0301EA73E452D1539716C99E9D555100003F0BAD7580160307F82C5BF14005C00854E7C8A5A2A72E2D933D30579AAAA8B555508CE4539F22968A9CB8B64CF4C03F88600003E8F775D9B0</advisoryMessage></asdmDetails></AdvisorySituationData>";
+			String rawXER = "<AdvisorySituationData><dialogID><advSitDatDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><startTime><year>2017</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></startTime><stopTime><year>2018</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></stopTime><advisoryMessage>03805E001F5B70D07930EC9C236B00000000000F775D9B0301EA73E452D1539716C99E9D555100003F0BAD7580160307F82C5BF14005C00854E7C8A5A2A72E2D933D30579AAAA8B555508CE4539F22968A9CB8B64CF4C03F88600003E8F775D9B0</advisoryMessage></asdmDetails></AdvisorySituationData>";
 			AdvisorySituationData advSitData = null;
 			try {
 				advSitData = (AdvisorySituationData) XerJaxbCodec.XerToJaxbPojo(rawXER);
@@ -206,7 +206,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
+		DialogID expectedDialog = DialogID.fromValue("advSitDatDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -219,7 +219,7 @@ public class MessageCreatorTest extends TestCase {
 		// CREATE TEST ASD
 		List<AdvisorySituationData> asdList = new ArrayList<AdvisorySituationData>();
 		for (int i = 0; i < 0; i++) {
-			String rawXER = "<AdvisorySituationData><dialogID><advSitDataDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><startTime><year>2017</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></startTime><stopTime><year>2018</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></stopTime><advisoryMessage>03805E001F5B70D07930EC9C236B00000000000F775D9B0301EA73E452D1539716C99E9D555100003F0BAD7580160307F82C5BF14005C00854E7C8A5A2A72E2D933D30579AAAA8B555508CE4539F22968A9CB8B64CF4C03F88600003E8F775D9B0</advisoryMessage></asdmDetails></AdvisorySituationData>";
+			String rawXER = "<AdvisorySituationData><dialogID><advSitDatDep/></dialogID><seqID><data/></seqID><groupID>00000000</groupID><requestID>88D27197</requestID><timeToLive><week/></timeToLive><serviceRegion><nwCorner><lat>449984590</lat><long>-1110408170</long></nwCorner><seCorner><lat>411046740</lat><long>-1041113120</long></seCorner></serviceRegion><asdmDetails><asdmID>88D27197</asdmID><asdmType><tim/></asdmType><distType>10</distType><startTime><year>2017</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></startTime><stopTime><year>2018</year><month>12</month><day>1</day><hour>17</hour><minute>47</minute></stopTime><advisoryMessage>03805E001F5B70D07930EC9C236B00000000000F775D9B0301EA73E452D1539716C99E9D555100003F0BAD7580160307F82C5BF14005C00854E7C8A5A2A72E2D933D30579AAAA8B555508CE4539F22968A9CB8B64CF4C03F88600003E8F775D9B0</advisoryMessage></asdmDetails></AdvisorySituationData>";
 			AdvisorySituationData advSitData = null;
 			try {
 				advSitData = (AdvisorySituationData) XerJaxbCodec.XerToJaxbPojo(rawXER);
@@ -230,7 +230,7 @@ public class MessageCreatorTest extends TestCase {
 			asdList.add(advSitData);
 		}
 
-		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
+		DialogID expectedDialog = DialogID.fromValue("advSitDatDist");
 
 		AdvisorySituationDataDistributionList distList = MessageCreator
 				.createAdvisorySituationDataDistributionList(asdList, expectedDialog, "TESTGROUP", "TESTREQUEST");
@@ -239,7 +239,7 @@ public class MessageCreatorTest extends TestCase {
 	}
 
 	public void testCreateDataReceipt() {
-		DialogID expectedDialog = DialogID.fromValue("advSitDataDist");
+		DialogID expectedDialog = DialogID.fromValue("advSitDatDist");
 		DataReceipt actualDataReceipt = MessageCreator.createDataReceipt(expectedDialog, "TESTGROUP", "TESTREQUEST");
 		assertEquals(expectedDialog, actualDataReceipt.getDialogID());
 		assertEquals("TESTGROUP", actualDataReceipt.getGroupID());

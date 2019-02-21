@@ -44,7 +44,7 @@ public class MessageProcessorTest {
 
 		ServiceRequest serviceRequest = new ServiceRequest();
 
-		DialogID dialogID = DialogID.fromValue("advSitDataDist");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		serviceRequest.setDialogID(dialogID);
 
 		SeqID seqID = new SeqID();
@@ -84,7 +84,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = DialogID.fromValue("advSitDataDist");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -144,7 +144,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = DialogID.fromValue("advSitDataDist");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -204,7 +204,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = DialogID.fromValue("advSitDataDist");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -266,7 +266,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = DialogID.fromValue("advSitDataDist");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -336,7 +336,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = DialogID.fromValue("advSitDataDist");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -396,7 +396,7 @@ public class MessageProcessorTest {
 	public void testProcessDataAcceptance() {
 		DataAcceptance dataAcceptance = new DataAcceptance();
 
-		DialogID dialogID = DialogID.fromValue("advSitDataDist");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataAcceptance.setDialogID(dialogID);
 
 		dataAcceptance.setGroupID("0000000");
@@ -427,7 +427,7 @@ public class MessageProcessorTest {
 	public void testProcessUnexpectedMessage() {
 		DataReceipt dataReceipt = new DataReceipt();
 
-		DialogID dialogID = DialogID.fromValue("advSitDataDist");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataReceipt.setDialogID(dialogID);
 
 		dataReceipt.setGroupID("0000000");
