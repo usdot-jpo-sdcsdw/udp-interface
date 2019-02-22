@@ -16,6 +16,7 @@ import gov.dot.its.jpo.sdcsdw.Models.DataAcceptance;
 import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
 import gov.dot.its.jpo.sdcsdw.Models.DataRequest;
 import gov.dot.its.jpo.sdcsdw.Models.Destination;
+import gov.dot.its.jpo.sdcsdw.Models.DialogIDXml;
 import gov.dot.its.jpo.sdcsdw.Models.DialogID;
 import gov.dot.its.jpo.sdcsdw.Models.DialogMessage;
 import gov.dot.its.jpo.sdcsdw.Models.NwCorner;
@@ -43,8 +44,7 @@ public class MessageProcessorTest {
 
 		ServiceRequest serviceRequest = new ServiceRequest();
 
-		DialogID dialogID = new DialogID();
-		dialogID.setAdvSitDatDist("");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		serviceRequest.setDialogID(dialogID);
 
 		SeqID seqID = new SeqID();
@@ -84,8 +84,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = new DialogID();
-		dialogID.setAdvSitDatDist("");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -128,8 +127,8 @@ public class MessageProcessorTest {
 		assertEquals("20", actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getRecordCount());
 		assertEquals("2", actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getBundleCount());
 
-		assertEquals(dataRequest.getDialogID().getDialogId(),
-				actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getDialogID().getDialogId());
+		assertEquals(dataRequest.getDialogID().getValue(),
+				actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getDialogID().getValue());
 
 		assertEquals(dataRequest.getRequestID(), actualAdvisorySituationDataDistributionList.getRequestID());
 		assertEquals(dataRequest.getRequestID(),
@@ -145,8 +144,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = new DialogID();
-		dialogID.setAdvSitDatDist("");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -189,8 +187,8 @@ public class MessageProcessorTest {
 		assertEquals("0", actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getRecordCount());
 		assertEquals("0", actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getBundleCount());
 
-		assertEquals(dataRequest.getDialogID().getDialogId(),
-				actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getDialogID().getDialogId());
+		assertEquals(dataRequest.getDialogID().getValue(),
+				actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getDialogID().getValue());
 
 		assertEquals(dataRequest.getRequestID(), actualAdvisorySituationDataDistributionList.getRequestID());
 		assertEquals(dataRequest.getRequestID(),
@@ -206,8 +204,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = new DialogID();
-		dialogID.setAdvSitDatDist("");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -253,7 +250,7 @@ public class MessageProcessorTest {
 			assertEquals("80", distribution.getRecordCount());
 			assertEquals("8", distribution.getBundleCount());
 
-			assertEquals(dataRequest.getDialogID().getDialogId(), distribution.getDialogID().getDialogId());
+			assertEquals(dataRequest.getDialogID().getValue(), distribution.getDialogID().getValue());
 
 			assertEquals(dataRequest.getRequestID(), distribution.getRequestID());
 
@@ -269,8 +266,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = new DialogID();
-		dialogID.setAdvSitDatDist("");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -323,7 +319,7 @@ public class MessageProcessorTest {
 			assertEquals("357", distribution.getRecordCount());
 			assertEquals("36", distribution.getBundleCount());
 
-			assertEquals(dataRequest.getDialogID().getDialogId(), distribution.getDialogID().getDialogId());
+			assertEquals(dataRequest.getDialogID().getValue(), distribution.getDialogID().getValue());
 
 			assertEquals(dataRequest.getRequestID(), distribution.getRequestID());
 
@@ -340,8 +336,7 @@ public class MessageProcessorTest {
 
 		DataRequest dataRequest = new DataRequest();
 
-		DialogID dialogID = new DialogID();
-		dialogID.setAdvSitDatDist("");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataRequest.setDialogID(dialogID);
 		dataRequest.setDistType("02");
 		dataRequest.setGroupID("0000000");
@@ -387,7 +382,7 @@ public class MessageProcessorTest {
 			assertEquals("80", distribution.getRecordCount());
 			assertEquals("8", distribution.getBundleCount());
 
-			assertEquals(dataRequest.getDialogID().getDialogId(), distribution.getDialogID().getDialogId());
+			assertEquals(dataRequest.getDialogID().getValue(), distribution.getDialogID().getValue());
 
 			assertEquals(dataRequest.getRequestID(), distribution.getRequestID());
 
@@ -401,8 +396,7 @@ public class MessageProcessorTest {
 	public void testProcessDataAcceptance() {
 		DataAcceptance dataAcceptance = new DataAcceptance();
 
-		DialogID dialogID = new DialogID();
-		dialogID.setAdvSitDatDist("");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataAcceptance.setDialogID(dialogID);
 
 		dataAcceptance.setGroupID("0000000");
@@ -433,8 +427,7 @@ public class MessageProcessorTest {
 	public void testProcessUnexpectedMessage() {
 		DataReceipt dataReceipt = new DataReceipt();
 
-		DialogID dialogID = new DialogID();
-		dialogID.setAdvSitDatDist("");
+		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		dataReceipt.setDialogID(dialogID);
 
 		dataReceipt.setGroupID("0000000");
