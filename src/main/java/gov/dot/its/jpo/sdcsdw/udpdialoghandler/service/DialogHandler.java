@@ -137,13 +137,14 @@ public class DialogHandler {
 	 */
 	private byte[] encodeResponseObjectInPer(DialogMessage messageObjectToReturn) throws ProcessingFailedException {
 		logger.info("Converting response message object to XER");
+		logger.info(messageObjectToReturn);
 		// Convert response object to XML (so that it can be encoded)
 		String xerEncodedResponseMessageToReturn = "";
 		try {
 			xerEncodedResponseMessageToReturn = XerJaxbCodec.JaxbPojoToXer(messageObjectToReturn);
 			xerEncodedResponseMessageToReturn = XerJaxbCodec.createSelfClosingTags(xerEncodedResponseMessageToReturn);
 		} catch (JAXBException e) {
-			throw new ProcessingFailedException("Failed to create XER from POJO representation of reponse object");
+			throw new ProcessingFailedException("Failed to create XER from POJO representation of reponse object", e);
 		}
 		// System.out.println(xerEncodedResponseMessageToReturn);
 
@@ -153,11 +154,11 @@ public class DialogHandler {
 		byte[] encodedMessageToReturn = null;
 
 		try {
-			System.out.println(asn1MessageType);
+			System.out.println(asn1MessageType.getName());
 			encodedMessageToReturn = encodePayloadAs(xerEncodedResponseMessageToReturn, asn1MessageType);
 		} catch (UnformattingFailedException | CodecFailedException | FormattingFailedException e) {
 			throw new ProcessingFailedException(
-					"Response message failed to encode " + asn1MessageType.getName() + " " + e.getMessage());
+					"Response message failed to encode " + asn1MessageType.getName(), e);
 		}
 
 		return encodedMessageToReturn;
@@ -179,7 +180,7 @@ public class DialogHandler {
 		try {
 			requestMessage = decodePayload(payload);
 		} catch (DecodingFailedException ee) {
-			throw new ProcessingFailedException("Message failed to decode, not an ASN1 encoded message");
+			throw new ProcessingFailedException("Message failed to decode, not an ASN1 encoded message", ee);
 		}
 
 		if (requestMessage instanceof ServiceRequest) {
@@ -212,8 +213,8 @@ public class DialogHandler {
 			// Some failure in processing occurred, possibilities:
 			// Message was not a ServiceRequest, DataRequest, or DataAcceptance
 			// Mongo went down
-			logger.error("Message failed processing.");
-			throw new ProcessingFailedException(e.getMessage());
+			logger.error("Message failed processing.", e);
+			throw new ProcessingFailedException("Message failed processing", e);
 		}
 
 		logger.info(String.format("Successfully created response message object of type: %s\n",
@@ -239,7 +240,7 @@ public class DialogHandler {
 			// as such we try to decode the message as each type to see which works
 			try {
 				String decodedXer = decodePayloadAs(payload, messageType);
-				DialogMessage unmarshalledObject = XerJaxbCodec.XerToJaxbPojo(decodedXer);
+				DialogMessage unmarshalledObject = (DialogMessage)XerJaxbCodec.XerToJaxbPojo(decodedXer);
 				return unmarshalledObject;
 			} catch (CodecFailedException e) {
 				// CodecFailed meaning the Asn1Type we were trying to decode the message as

@@ -16,12 +16,11 @@ import gov.dot.its.jpo.sdcsdw.Models.DataAcceptance;
 import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
 import gov.dot.its.jpo.sdcsdw.Models.DataRequest;
 import gov.dot.its.jpo.sdcsdw.Models.Destination;
-import gov.dot.its.jpo.sdcsdw.Models.DialogIDXml;
 import gov.dot.its.jpo.sdcsdw.Models.DialogID;
 import gov.dot.its.jpo.sdcsdw.Models.DialogMessage;
 import gov.dot.its.jpo.sdcsdw.Models.NwCorner;
 import gov.dot.its.jpo.sdcsdw.Models.SeCorner;
-import gov.dot.its.jpo.sdcsdw.Models.SeqID;
+import gov.dot.its.jpo.sdcsdw.Models.SemiSequenceID;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceRegion;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceRequest;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceResponse;
@@ -47,9 +46,7 @@ public class MessageProcessorTest {
 		DialogID dialogID = DialogID.fromValue("advSitDatDist");
 		serviceRequest.setDialogID(dialogID);
 
-		SeqID seqID = new SeqID();
-		seqID.setSvcReq("");
-		serviceRequest.setSeqID(seqID);
+		serviceRequest.setSeqID(SemiSequenceID.SVC_REQ);
 
 		serviceRequest.setGroupID("0000000");
 		serviceRequest.setRequestID("E054E21B");
@@ -76,7 +73,7 @@ public class MessageProcessorTest {
 		// byte array
 		assertEquals("6B5FF555CD8EA68A7FFA157D096D0CF9E7D1F573F506781A92721D474E2A2CD2",
 				actualServiceResponse.getHash());
-		assertEquals("svcResp", actualServiceResponse.getSeqID().getSeqId());
+		assertEquals(SemiSequenceID.SVC_RESP, actualServiceResponse.getSeqID());
 	}
 
 	@Test
@@ -90,9 +87,7 @@ public class MessageProcessorTest {
 		dataRequest.setGroupID("0000000");
 		dataRequest.setRequestID("E054E21B");
 
-		SeqID seqID = new SeqID();
-		seqID.setDataReq("");
-		dataRequest.setSeqID(seqID);
+		dataRequest.setSeqID(SemiSequenceID.DATA_REQ);
 
 		// ServiceRegion
 		NwCorner nwCorner = new NwCorner();
@@ -127,8 +122,8 @@ public class MessageProcessorTest {
 		assertEquals("20", actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getRecordCount());
 		assertEquals("2", actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getBundleCount());
 
-		assertEquals(dataRequest.getDialogID().getValue(),
-				actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getDialogID().getValue());
+		assertEquals(dataRequest.getDialogID().getString(),
+				actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getDialogID().getString());
 
 		assertEquals(dataRequest.getRequestID(), actualAdvisorySituationDataDistributionList.getRequestID());
 		assertEquals(dataRequest.getRequestID(),
@@ -150,9 +145,7 @@ public class MessageProcessorTest {
 		dataRequest.setGroupID("0000000");
 		dataRequest.setRequestID("E054E21B");
 
-		SeqID seqID = new SeqID();
-		seqID.setDataReq("");
-		dataRequest.setSeqID(seqID);
+		dataRequest.setSeqID(SemiSequenceID.DATA_REQ);
 
 		// ServiceRegion
 		NwCorner nwCorner = new NwCorner();
@@ -187,8 +180,8 @@ public class MessageProcessorTest {
 		assertEquals("0", actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getRecordCount());
 		assertEquals("0", actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getBundleCount());
 
-		assertEquals(dataRequest.getDialogID().getValue(),
-				actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getDialogID().getValue());
+		assertEquals(dataRequest.getDialogID().getString(),
+				actualAdvisorySituationDataDistributionList.getDistributionList().get(0).getDialogID().getString());
 
 		assertEquals(dataRequest.getRequestID(), actualAdvisorySituationDataDistributionList.getRequestID());
 		assertEquals(dataRequest.getRequestID(),
@@ -210,9 +203,7 @@ public class MessageProcessorTest {
 		dataRequest.setGroupID("0000000");
 		dataRequest.setRequestID("E054E21B");
 
-		SeqID seqID = new SeqID();
-		seqID.setDataReq("");
-		dataRequest.setSeqID(seqID);
+		dataRequest.setSeqID(SemiSequenceID.DATA_REQ);
 
 		// ServiceRegion
 		NwCorner nwCorner = new NwCorner();
@@ -250,7 +241,7 @@ public class MessageProcessorTest {
 			assertEquals("80", distribution.getRecordCount());
 			assertEquals("8", distribution.getBundleCount());
 
-			assertEquals(dataRequest.getDialogID().getValue(), distribution.getDialogID().getValue());
+			assertEquals(dataRequest.getDialogID().getString(), distribution.getDialogID().getString());
 
 			assertEquals(dataRequest.getRequestID(), distribution.getRequestID());
 
@@ -272,9 +263,7 @@ public class MessageProcessorTest {
 		dataRequest.setGroupID("0000000");
 		dataRequest.setRequestID("E054E21B");
 
-		SeqID seqID = new SeqID();
-		seqID.setDataReq("");
-		dataRequest.setSeqID(seqID);
+		dataRequest.setSeqID(SemiSequenceID.DATA_REQ);
 
 		// ServiceRegion
 		NwCorner nwCorner = new NwCorner();
@@ -319,7 +308,7 @@ public class MessageProcessorTest {
 			assertEquals("357", distribution.getRecordCount());
 			assertEquals("36", distribution.getBundleCount());
 
-			assertEquals(dataRequest.getDialogID().getValue(), distribution.getDialogID().getValue());
+			assertEquals(dataRequest.getDialogID().getString(), distribution.getDialogID().getString());
 
 			assertEquals(dataRequest.getRequestID(), distribution.getRequestID());
 
@@ -342,9 +331,7 @@ public class MessageProcessorTest {
 		dataRequest.setGroupID("0000000");
 		dataRequest.setRequestID("E054E21B");
 
-		SeqID seqID = new SeqID();
-		seqID.setDataReq("");
-		dataRequest.setSeqID(seqID);
+		dataRequest.setSeqID(SemiSequenceID.DATA_REQ);
 
 		// ServiceRegion
 		NwCorner nwCorner = new NwCorner();
@@ -382,7 +369,7 @@ public class MessageProcessorTest {
 			assertEquals("80", distribution.getRecordCount());
 			assertEquals("8", distribution.getBundleCount());
 
-			assertEquals(dataRequest.getDialogID().getValue(), distribution.getDialogID().getValue());
+			assertEquals(dataRequest.getDialogID().getString(), distribution.getDialogID().getString());
 
 			assertEquals(dataRequest.getRequestID(), distribution.getRequestID());
 
@@ -402,9 +389,7 @@ public class MessageProcessorTest {
 		dataAcceptance.setGroupID("0000000");
 		dataAcceptance.setRequestID("E054E21B");
 
-		SeqID seqID = new SeqID();
-		seqID.setAccept("");
-		dataAcceptance.setSeqID(seqID);
+		dataAcceptance.setSeqID(SemiSequenceID.ACCEPT);
 
 		DataReceipt actualDataReceipt = null;
 
@@ -419,7 +404,7 @@ public class MessageProcessorTest {
 		assertEquals(dataAcceptance.getGroupID(), actualDataReceipt.getGroupID());
 		assertEquals(dataAcceptance.getRequestID(), actualDataReceipt.getRequestID());
 		assertEquals(dataAcceptance.getDialogID(), actualDataReceipt.getDialogID());
-		assertEquals("receipt", actualDataReceipt.getSeqID().getSeqId());
+		assertEquals(SemiSequenceID.RECEIPT, actualDataReceipt.getSeqID());
 
 	}
 
@@ -433,9 +418,7 @@ public class MessageProcessorTest {
 		dataReceipt.setGroupID("0000000");
 		dataReceipt.setRequestID("E054E21B");
 
-		SeqID seqID = new SeqID();
-		seqID.setReceipt("");
-		dataReceipt.setSeqID(seqID);
+		dataReceipt.setSeqID(SemiSequenceID.RECEIPT);
 
 		DialogMessage unexpectedObject = null;
 		try {

@@ -11,32 +11,32 @@ import java.util.TimeZone;
 import org.apache.log4j.Logger;
 
 import gov.dot.its.jpo.sdcsdw.Models.AdvisoryBroadcast;
+import gov.dot.its.jpo.sdcsdw.Models.AdvisoryBroadcastType;
 import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationBundle;
 import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationData;
 import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistribution;
 import gov.dot.its.jpo.sdcsdw.Models.AdvisorySituationDataDistributionList;
 import gov.dot.its.jpo.sdcsdw.Models.AsdBundles;
 import gov.dot.its.jpo.sdcsdw.Models.AsdRecords;
-import gov.dot.its.jpo.sdcsdw.Models.AsdmType;
 import gov.dot.its.jpo.sdcsdw.Models.BiDeliveryStart;
 import gov.dot.its.jpo.sdcsdw.Models.BiDeliveryStop;
-import gov.dot.its.jpo.sdcsdw.Models.BiEncryption;
-import gov.dot.its.jpo.sdcsdw.Models.BiSignature;
-import gov.dot.its.jpo.sdcsdw.Models.BiTxChannel;
-import gov.dot.its.jpo.sdcsdw.Models.BiTxMode;
-import gov.dot.its.jpo.sdcsdw.Models.BiType;
-import gov.dot.its.jpo.sdcsdw.Models.BroadcastInst;
+import gov.dot.its.jpo.sdcsdw.Models.BroadcastInstructions;
 import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
 import gov.dot.its.jpo.sdcsdw.Models.DialogID;
-import gov.dot.its.jpo.sdcsdw.Models.DsrcInst;
+import gov.dot.its.jpo.sdcsdw.Models.DsrcInstructions;
 import gov.dot.its.jpo.sdcsdw.Models.Expiration;
 import gov.dot.its.jpo.sdcsdw.Models.NwCorner;
 import gov.dot.its.jpo.sdcsdw.Models.SeCorner;
-import gov.dot.its.jpo.sdcsdw.Models.SeqID;
+import gov.dot.its.jpo.sdcsdw.Models.SemiSequenceID;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceRegion;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceResponse;
 import gov.dot.its.jpo.sdcsdw.Models.StartTime;
 import gov.dot.its.jpo.sdcsdw.Models.StopTime;
+import gov.dot.its.jpo.sdcsdw.Models.TxChannel;
+import gov.dot.its.jpo.sdcsdw.Models.TxMode;
+import gov.dot.its.jpo.sdcsdw.Models.xmlhelpers.SemiSequenceIDXml;
+import gov.dot.its.jpo.sdcsdw.Models.xmlhelpers.TxChannelXml;
+import gov.dot.its.jpo.sdcsdw.Models.xmlhelpers.TxModeXml;
 
 /**
  * Creates response messages, implements bundling
@@ -57,9 +57,7 @@ public class MessageCreator {
 
 		// Set Sequence ID to service response
 
-		SeqID seqID = new SeqID();
-		seqID.setSvcResp("");
-		serviceResponse.setSeqID(seqID);
+		serviceResponse.setSeqID(SemiSequenceID.SVC_RESP);
 
 		Expiration expiration = createExpiration(1);
 		serviceResponse.setExpiration(expiration);
@@ -83,8 +81,7 @@ public class MessageCreator {
 		List<AdvisorySituationBundle> bundles = new ArrayList<AdvisorySituationBundle>();
 
 		List<AdvisorySituationDataDistribution> distributionList = new ArrayList<AdvisorySituationDataDistribution>();
-		SeqID seqID = new SeqID();
-		seqID.setData("");
+		SemiSequenceID seqID = SemiSequenceID.DATA;
 
 		int bundlesMade = 0;
 		int bundlesMadeCummulative = 0;
@@ -178,7 +175,7 @@ public class MessageCreator {
 	}
 
 	private static AdvisorySituationDataDistribution createDistribution(List<AdvisorySituationBundle> bundles,
-			int bundlesMade, DialogID dialogIDObj, String groupID, String requestID, int recordsMade, SeqID seqID) {
+			int bundlesMade, DialogID dialogIDObj, String groupID, String requestID, int recordsMade, SemiSequenceID seqID) {
 		AdvisorySituationDataDistribution advSitDataDist = new AdvisorySituationDataDistribution();
 		AsdBundles asdBundles = new AsdBundles();
 		asdBundles.setAdvisorySituationBundle(bundles.toArray(new AdvisorySituationBundle[bundles.size()]));
@@ -199,9 +196,7 @@ public class MessageCreator {
 		dataReceipt.setGroupID(groupID);
 		dataReceipt.setRequestID(requestID);
 
-		SeqID seqID = new SeqID();
-		seqID.setReceipt("");
-		dataReceipt.setSeqID(seqID);
+		dataReceipt.setSeqID(SemiSequenceID.RECEIPT);
 
 		return dataReceipt;
 	}
@@ -216,7 +211,7 @@ public class MessageCreator {
 
 			broadcastMessage.setMessagePsid(String.format("%08X", PSID));
 
-			BroadcastInst broadcastInst = createBroadcastInstructions(asd.getAsdmDetails().getStartTime(),
+			BroadcastInstructions broadcastInst = createBroadcastInstructions(asd.getAsdmDetails().getStartTime(),
 					asd.getAsdmDetails().getStopTime(), asd.getAsdmDetails().getAsdmType());
 
 			broadcastMessage.setBroadcastInst(broadcastInst);
@@ -228,8 +223,8 @@ public class MessageCreator {
 		return broadcasts;
 	}
 
-	private static BroadcastInst createBroadcastInstructions(StartTime startTime, StopTime stopTime, AsdmType type) {
-		BroadcastInst bcastInst = new BroadcastInst();
+	private static BroadcastInstructions createBroadcastInstructions(StartTime startTime, StopTime stopTime, AdvisoryBroadcastType type) {
+		BroadcastInstructions bcastInst = new BroadcastInstructions();
 
 		BiDeliveryStart biDeliveryStart = new BiDeliveryStart();
 		BiDeliveryStop biDeliveryStop = new BiDeliveryStop();
@@ -284,39 +279,21 @@ public class MessageCreator {
 
 		bcastInst.setBiDeliveryStart(biDeliveryStart);
 		bcastInst.setBiDeliveryStop(biDeliveryStop);
-		BiEncryption biEncript = new BiEncryption();
-		if (ENCRYPTION) {
-			biEncript.setTrue("");
-		} else {
-			biEncript.setFalse("");
-		}
 
-		bcastInst.setBiEncryption(biEncript);
+		bcastInst.setBiEncryption(ENCRYPTION);
 
 		bcastInst.setBiPriority(Integer.toString(PRIORITY));
 
-		BiSignature biSign = new BiSignature();
-		if (SIGNATURE) {
-			biSign.setTrue("");
-		} else {
-			biSign.setFalse("");
-		}
-		bcastInst.setBiSignature(biSign);
+		bcastInst.setBiSignature(SIGNATURE);
+		
+		bcastInst.setBiType(type);
 
-		BiType biType = new BiType();
-		biType.setValuesFromStartTimeObject(type);
-		bcastInst.setBiType(biType);
-
-		DsrcInst dsrcInst = new DsrcInst();
-		BiTxChannel biTxChannel = new BiTxChannel();
-		biTxChannel.setChannel((int) TX_CHANNEL);
-		dsrcInst.setBiTxChannel(biTxChannel);
+		DsrcInstructions dsrcInst = new DsrcInstructions();
+		dsrcInst.setBiTxChannel(TX_CHANNEL);
 
 		dsrcInst.setBiTxInterval(Integer.toString(TX_INTERVAL));
 
-		BiTxMode biTxMode = new BiTxMode();
-		biTxMode.setMode((int) TX_MODE);
-		dsrcInst.setBiTxMode(biTxMode);
+		dsrcInst.setBiTxMode(TX_MODE);
 
 		bcastInst.setDsrcInst(dsrcInst);
 
@@ -360,8 +337,8 @@ public class MessageCreator {
 	// Default values for the RSU broadcast instructions for May PlugFest
 	private static final int PSID = 0x8003;
 	private static final int PRIORITY = 32;
-	private static final long TX_MODE = 1;
-	private static final long TX_CHANNEL = 5;
+	private static final TxMode TX_MODE = TxMode.ALTERNATING; //1
+	private static final TxChannel TX_CHANNEL = TxChannel.CH_178; //5
 	private static final int TX_INTERVAL = 1;
 	private static final boolean SIGNATURE = true;
 	private static final boolean ENCRYPTION = false;
