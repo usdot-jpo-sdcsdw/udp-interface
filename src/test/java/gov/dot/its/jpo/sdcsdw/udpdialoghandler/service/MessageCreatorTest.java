@@ -18,7 +18,6 @@ import gov.dot.its.jpo.sdcsdw.Models.AsdRecords;
 import gov.dot.its.jpo.sdcsdw.Models.DataReceipt;
 import gov.dot.its.jpo.sdcsdw.Models.DialogID;
 import gov.dot.its.jpo.sdcsdw.Models.ServiceResponse;
-import gov.dot.its.jpo.sdcsdw.Models.xmlhelpers.DialogIDXml;
 import gov.dot.its.jpo.sdcsdw.udpdialoghandler.service.MessageCreator;
 import gov.dot.its.jpo.sdcsdw.xerjaxbcodec.XerJaxbCodec;
 import junit.framework.Test;

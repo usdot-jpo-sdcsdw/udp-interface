@@ -34,9 +34,6 @@ import gov.dot.its.jpo.sdcsdw.Models.StartTime;
 import gov.dot.its.jpo.sdcsdw.Models.StopTime;
 import gov.dot.its.jpo.sdcsdw.Models.TxChannel;
 import gov.dot.its.jpo.sdcsdw.Models.TxMode;
-import gov.dot.its.jpo.sdcsdw.Models.xmlhelpers.SemiSequenceIDXml;
-import gov.dot.its.jpo.sdcsdw.Models.xmlhelpers.TxChannelXml;
-import gov.dot.its.jpo.sdcsdw.Models.xmlhelpers.TxModeXml;
 
 /**
  * Creates response messages, implements bundling
